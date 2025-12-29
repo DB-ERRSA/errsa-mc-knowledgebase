@@ -1,1 +1,34 @@
+site_name: ERRSA MC Knowledgebase
+site_description: Documentation for ERRSA Minecraft server operations, plugins, and standards.
+repo_url: https://github.com/ERRSA/errsa-mc-knowledgebase
+repo_name: GitHub
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Standards:
+      - Permissions Model: standards/permissions.md
+  - Plugins:
+      - Overview: plugins/README.md
+  - Troubleshooting:
+      - Common Issues: troubleshooting/common-issues.md
 
