@@ -1,0 +1,12 @@
+docs/
+  index.md
+  getting-started.md
+  plugins/
+    README.md
+  standards/
+    permissions.md
+  troubleshooting/
+    common-issues.md
+.github/
+  workflows/
+    deploy.yml
