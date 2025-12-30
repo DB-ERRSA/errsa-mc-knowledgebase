@@ -119,7 +119,22 @@
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+
 /* Footer de-emphasis */
 .md-footer {
   opacity: 0.85;
 }
+
+/* ------------------------------------------------------------
+   Table centering - Procedures
+------------------------------------------------------------ */
+
+.center-table {
+  display: flex;
+  justify-content: center;
+}
+
+.center-table table {
+  width: auto;
+}
+
