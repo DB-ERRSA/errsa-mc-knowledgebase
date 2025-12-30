@@ -19,6 +19,7 @@ markdown_extensions:
       permalink: true
   - tables
   - fenced_code
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
 
