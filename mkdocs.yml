@@ -5,8 +5,6 @@ repo_name: GitHub
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,23 +12,37 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    palette:
-    - scheme: default
-      primary: indigo
-      accent: amber
+
+  palette:
+    # Dark mode default (NASA clean)
     - scheme: slate
-      primary: indigo
-      accent: amber
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light mode optional
+    - scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
   - tables
-  - fenced_code
-  - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
