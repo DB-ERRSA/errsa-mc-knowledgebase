@@ -2,33 +2,28 @@
 
 Operational documentation for the ERRSA Minecraft server: plugins, standards, procedures, and troubleshooting.
 
+## Start here
+
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: **Getting Started**
-  
-  Server architecture, hosting panel, file locations, and first steps.
-  
+- :material-rocket-launch: **Getting Started**  
+  New devs/admins: how the server is set up and where everything lives.  
   [Open →](getting-started.md)
 
-- :material-puzzle: **Plugins**
-  
-  Per-plugin purpose, configs, permissions, commands, and update procedure.
-  
+- :material-puzzle: **Plugins**  
+  Per-plugin pages: purpose, configs, permissions, commands, update steps.  
   [Open →](plugins/README.md)
 
-- :material-shield-lock: **Permissions**
-  
-  LuckPerms group model, staff roles, and access control rules.
-  
+- :material-shield-lock: **Permissions Model**  
+  LuckPerms group structure, staff roles, and access control rules.  
   [Open →](standards/permissions.md)
 
-- :material-wrench: **Troubleshooting**
-  
-  Common failures, log locations, and known fixes.
-  
+- :material-wrench: **Troubleshooting**  
+  Common failures, log locations, and quick fixes.  
   [Open →](troubleshooting/common-issues.md)
 
 </div>
+
 
 ---
 
