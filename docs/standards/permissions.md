@@ -32,25 +32,29 @@ premium (VIP)               legacy                   dev
 - Follow backup procedures
 - Document all technical changes
 
-!!! info "MAIN track — Player lifecycle"
+## MAIN track — Player lifecycle##
 Controls when a player can interact with the server
+
 **`default`**
+
 - First join / unverified
 - Player isolated (void)
 - Email verification only
 - No gameplay access
 
 **`user`**
+
 - Verified player
 - Full survival gameplay
 - Economy, claims, warps, voice chat
 
 **`premium` (VIP)**
+
 - Optional cosmetic overlay
 - Prefixes, QoL, cosmetics
 - **Never grants authority**
 
-!!! note "ERRSA track — Organization & identity"
+## ERRSA track — Organization & identity##
 Controls who someone is within ERRSA
 
 Groups:
@@ -63,37 +67,48 @@ Groups:
 - `advisor`
 
 Purpose:
+
 - Prefixes & recognition
 - Organizational identity
 
-!!! danger
+!!! note
     ERRSA membership **never** grants moderation, admin, or dev permissions.
 
-!!! warning "STAFF track — Authority"
+## "STAFF track — Authority" ##
 Controls what actions affect other players or the server
+
 **`mod` — Moderation**
+
 - Enforce rules
 - Mute / kick / ban
 - Investigate players
 - View logs & alerts  
-🚫 Cannot fix damage • 🚫 Cannot override protections • 🚫 Not OP
+🚫 Cannot fix damage
+🚫 Cannot override protections
+🚫 Not OP
 
 **`admin` — Operations**
+
 - Fix damage (rollbacks)
 - Override claims & protections
 - Resolve incidents
 - Coordinate staff response  
-🚫 Cannot install plugins • 🚫 Cannot edit configs • 🚫 Cannot modify LuckPerms • 🚫 **Admins are not OP**  
+🚫 Cannot install plugins
+🚫 Cannot edit configs
+🚫 Cannot modify LuckPerms
+🚫 **Admins are not OP**
+
 *Admins help devs with non-technical server management.*
 
 **`dev` — Technical authority**
+
 - Full system access (`*`)
 - Plugins & configs
 - Permissions structure
 - Backend & stability
 
-!!! danger
-    Dev is **not** “Admin with more buttons”.
+!!! note 
+  Devs are the only role given operator commands
 
 ##Escalation Flow##
 Player behavior issue?  → mod
@@ -107,5 +122,5 @@ If you’re unsure:
 - Do not self-assign permissions
 
 ----
-_Last reviewed: 2025-01
+__Last reviewed: 2025-01
 
