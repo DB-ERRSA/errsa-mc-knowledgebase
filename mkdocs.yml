@@ -5,6 +5,8 @@ repo_name: GitHub
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -12,6 +14,13 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+    - scheme: slate
+      primary: indigo
+      accent: amber
 
 markdown_extensions:
   - admonition
@@ -32,4 +41,8 @@ nav:
       - Overview: plugins/README.md
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
+
+extra_css:
+  - stylesheets/extra.css
+
 
