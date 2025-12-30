@@ -21,14 +21,14 @@ Each track answers a different question about a player.
 
     ```text
     ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
-    │ MAIN — Player Lifecycle   │   │ ERRSA — Identity          │   │ STAFF — Authority         │
+    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity         │   │ STAFF — Authority         │
     ├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
-    │ default  (unverified)     │   │ errsa                     │   │ mod                        │
-    │ user     (verified)       │   │ hallrep                   │   │ admin                      │
-    │ premium  (VIP cosmetic)   │   │ legacy                    │   │ dev                        │
-    │                          │   │ execcoord                 │   │                            │
-    │                          │   │ execboard                 │   │                            │
-    │                          │   │ advisor                   │   │                            │
+    │ default  (unverified)    │   │ errsa                    │   │ mod                        │
+    │ user     (verified)      │   │ hallrep                  │   │ admin                      │
+    │ premium  (VIP cosmetic)  │   │ legacy                   │   │ dev                        │
+    │                          │   │ execcoord                │   │                            │
+    │                          │   │ execboard                │   │                            │
+    │                          │   │ advisor                  │   │                            │
     └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
     ```
 ---
@@ -130,15 +130,16 @@ Controls **actions that affect other players or the server**.
 
 ---
 
-## Escalation Flow
 
 <div class="center-table">
 
-| Situation | Escalate To |
-|---------|-------------|
-| Player behavior issue | `mod` |
-| Damage or incident | `admin` |
-| Plugins / configs / permissions | `dev` |
+!!! note "Escalation Flow"
+
+    | Situation | Escalate To |
+    |----------|-------------|
+    | Player behavior issue | `mod` |
+    | Damage or incident | `admin` |
+    | Plugins / configs / permissions | `dev` |
 
 </div>
 
@@ -149,4 +150,4 @@ Controls **actions that affect other players or the server**.
 
 ---
 
-_Last reviewed: 2025-01_
+_Last reviewed: 2025-12-30_
