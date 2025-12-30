@@ -1,4 +1,4 @@
-# ERRSA MC Knowledgebase
+# Home
 
 Operational documentation for the ERRSA Minecraft server: plugins, standards, procedures, and troubleshooting.
 
