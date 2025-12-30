@@ -17,6 +17,12 @@
   background: rgba(255,255,255,0.03);
 }
 
+body {
+  outline: 5px solid red !important;
+}
+
+
+
 /* Subtle hover state (keeps NASA-clean feel) */
 .md-typeset .grid.cards > ul > li:hover {
   border-color: rgba(255,255,255,0.14);
