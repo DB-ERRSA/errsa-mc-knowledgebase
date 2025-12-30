@@ -1,0 +1,14 @@
+/* Tighten max width a bit for a more wiki-like feel */
+.md-grid {
+  max-width: 1200px;
+}
+
+/* Make homepage title less huge */
+.md-typeset h1 {
+  margin-bottom: 0.4rem;
+}
+
+/* Slightly nicer link hover */
+.md-typeset a:hover {
+  text-decoration: underline;
+}
