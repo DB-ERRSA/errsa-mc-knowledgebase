@@ -41,3 +41,7 @@ Paper/Spigot? Proxy? Both?
 - [ ] No console errors
 - [ ] Permissions correct
 - [ ] Feature works in-game
+
+---
+_Last verified: 2025-01-XX | Server version: 1.20.x_
+
