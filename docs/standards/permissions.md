@@ -18,18 +18,19 @@ Each track answers a different question about a player.
 !!! note "How to read this diagram"
     These are **parallel lanes**, not inheritance chains.  
     VIP (`premium`) is a cosmetic overlay and does **not** move someone toward staff authority.
-```
+    
+``
     ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
-    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity         │   │ STAFF — Authority        │
+    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity          │   │ STAFF — Authority        │
     ├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
-    │ default  (unverified)    │   │ errsa                    │   │ mod                      │
-    │ user     (verified)      │   │ hallrep                  │   │ admin                    │
-    │ premium  (VIP cosmetic)  │   │ legacy                   │   │ dev                      │
-    │                          │   │ execcoord                │   │                          │
-    │                          │   │ execboard                │   │                          │
-    │                          │   │ advisor                  │   │                          │
+    │ default  (unverified)    │   │ errsa                     │   │ mod                      │
+    │ user     (verified)      │   │ hallrep                   │   │ admin                    │
+    │ premium  (VIP cosmetic)  │   │ legacy                    │   │ dev                      │
+    │                          │   │ execcoord                 │   │                          │
+    │                          │   │ execboard                 │   │                          │
+    │                          │   │ advisor                   │   │                          │
     └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
-```
+
 ---
 
 ## MAIN Track — Player Lifecycle
@@ -89,6 +90,7 @@ Controls **actions that affect other players or the server**.
 - View logs, alerts, socialspy
 
 **Does NOT grant:**
+
 - ❌ Rollbacks or fixes
 - ❌ Claim overrides
 - ❌ Operator (OP)
@@ -102,6 +104,7 @@ Controls **actions that affect other players or the server**.
 - Staff coordination
 
 **Does NOT grant:**
+
 - ❌ Plugin installation
 - ❌ Config editing
 - ❌ LuckPerms modification
