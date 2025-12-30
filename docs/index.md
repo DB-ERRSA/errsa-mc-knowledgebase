@@ -36,3 +36,8 @@ Operational documentation for the ERRSA Minecraft server: plugins, standards, pr
 
 !!! info "Source of truth"
     This wiki is the handoff reference for future ERRSA MC admins.
+
+    ---
+This knowledgebase is the **authoritative operational reference** for the ERRSA Minecraft server.  
+All configuration, permissions, and procedures should align with the documentation herein.
+
