@@ -47,3 +47,6 @@ nav:
       - Overview: plugins/README.md
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
+
+extra_css:
+  - stylesheets/extra.css
