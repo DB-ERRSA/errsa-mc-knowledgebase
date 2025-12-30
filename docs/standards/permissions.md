@@ -20,14 +20,14 @@ Each track answers a different question about a player.
     VIP (`premium`) is a cosmetic overlay and does **not** move someone toward staff authority.
 
     ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
-    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity          │   │ STAFF — Authority        │
+    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity         │   │ STAFF — Authority        │
     ├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
-    │ default  (unverified)    │   │ errsa                     │   │ mod                      │
-    │ user     (verified)      │   │ hallrep                   │   │ admin                    │
-    │ premium  (VIP cosmetic)  │   │ legacy                    │   │ dev                      │
-    │                          │   │ execcoord                 │   │                          │
-    │                          │   │ execboard                 │   │                          │
-    │                          │   │ advisor                   │   │                          │
+    │ default  (unverified)    │   │ errsa                    │   │ mod                      │
+    │ user     (verified)      │   │ hallrep                  │   │ admin                    │
+    │ premium  (VIP cosmetic)  │   │ legacy                   │   │ dev                      │
+    │                          │   │ execcoord                │   │                          │
+    │                          │   │ execboard                │   │                          │
+    │                          │   │ advisor                  │   │                          │
     └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
 
 ---
