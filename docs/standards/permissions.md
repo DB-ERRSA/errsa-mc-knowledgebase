@@ -3,6 +3,7 @@
 Permissions on the ERRSA Minecraft server are structured to reflect **roles and responsibilities**, not seniority or trust alone.
 
 Staff permissions are intentionally separated to ensure:
+
 - accountability
 - safety
 - clear escalation paths
@@ -24,12 +25,14 @@ The server uses three staff permission tiers, aligned with ERRSA policy:
 **Focus**: Player behavior and community safety
 
 Allowed:
+
 - Warnings, mutes, kicks, bans (per procedure)
 - Teleport tools for moderation
 - Investigation commands (read-only)
 - Chat and sign moderation
 
 Not allowed:
+
 - Creative mode
 - World modification
 - Plugin interaction
@@ -44,6 +47,7 @@ Not allowed:
 Admins exist to support Developers by handling **non-technical server management**.
 
 Allowed:
+
 - All Moderator permissions
 - Investigation tools (CoreProtect, rollbacks)
 - Limited creative access for repairs
@@ -52,6 +56,7 @@ Allowed:
 - Incident documentation and logging
 
 Not allowed:
+
 - Uploading/removing plugins
 - Editing config files
 - Changing LuckPerms structure
@@ -64,6 +69,7 @@ Not allowed:
 **Focus**: Stability, performance, and implementation
 
 Allowed:
+
 - All Admin permissions
 - Plugin installation, removal, and updates
 - Config editing
@@ -73,6 +79,7 @@ Allowed:
 - Permission structure changes (LuckPerms)
 
 Expectations:
+
 - Coordinate changes with Admins
 - Follow backup procedures
 - Document all technical changes
