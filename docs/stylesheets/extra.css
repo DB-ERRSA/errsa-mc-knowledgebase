@@ -9,6 +9,7 @@
 .md-typeset .grid.cards > ul > li {
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.08);
+  position: relative; /* needed for full-card clickable overlay */
 }
 
 /* Make cards pop subtly in dark mode */
@@ -16,7 +17,21 @@
   background: rgba(255,255,255,0.03);
 }
 
+/* Subtle hover state (keeps NASA-clean feel) */
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(255,255,255,0.14);
+}
+
+/* Make the entire card clickable (not just "Open →") */
+.md-typeset .grid.cards > ul > li a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
 /* Cleaner link style */
 .md-typeset a { text-decoration: none; }
 .md-typeset a:hover { text-decoration: underline; }
 
+/* Keep the link underline behavior, but avoid underlining card titles on hover */
+.md-typeset .grid.cards > ul > li a:hover { text-decoration: none; }
