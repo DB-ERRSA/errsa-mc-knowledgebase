@@ -1,34 +1,30 @@
 # ERRSA MC Knowledgebase
 
-Welcome! This wiki documents how we run the ERRSA Minecraft server—plugins, standards, procedures, and troubleshooting.
-
----
-
-## Start here
+Operational documentation for the ERRSA Minecraft server: plugins, standards, procedures, and troubleshooting.
 
 <div class="grid cards" markdown>
 
 - :material-rocket-launch: **Getting Started**
   
-  New devs/admins: how the server is set up and where everything lives.
+  Server architecture, hosting panel, file locations, and first steps.
   
   [Open →](getting-started.md)
 
 - :material-puzzle: **Plugins**
   
-  Per-plugin pages: purpose, configs, permissions, commands, update steps.
+  Per-plugin purpose, configs, permissions, commands, and update procedure.
   
   [Open →](plugins/README.md)
 
-- :material-shield-lock: **Permissions Model**
+- :material-shield-lock: **Permissions**
   
-  LuckPerms group structure, staff roles, and rule-of-thumb access control.
+  LuckPerms group model, staff roles, and access control rules.
   
   [Open →](standards/permissions.md)
 
 - :material-wrench: **Troubleshooting**
   
-  Common failures, log locations, and quick fixes.
+  Common failures, log locations, and known fixes.
   
   [Open →](troubleshooting/common-issues.md)
 
@@ -36,12 +32,12 @@ Welcome! This wiki documents how we run the ERRSA Minecraft server—plugins, st
 
 ---
 
-## Golden Rules
-!!! warning "Never break production"
-    Always take a backup before plugin updates or config changes.
+## Operating Rules
+!!! warning "Change control"
+    Back up before modifying plugins or configs.
 
-!!! tip "Document everything"
-    If you change it, update this wiki the same day (or it didn’t happen).
+!!! tip "Documentation discipline"
+    If you change it, update the wiki the same day.
 
-!!! info "Single source of truth"
-    This wiki is the official handoff reference for future ERRSA MC admins.
+!!! info "Source of truth"
+    This wiki is the handoff reference for future ERRSA MC admins.
