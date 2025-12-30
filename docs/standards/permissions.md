@@ -1,64 +1,67 @@
 # Permissions Model
 
-The ERRSA MC server uses **three parallel permission tracks**.  
+The ERRSA MC server uses **three parallel permission tracks** — not a single rank ladder.  
 Each track answers a different question about a player.
+
+- **MAIN:** Can the player interact with gameplay?
+- **ERRSA:** Who is the player within ERRSA?
+- **STAFF:** What authority does the player have?
+
+!!! info "Key Rule"
+    **Permission tracks are parallel, not hierarchical.**  
+    Membership in one track never implies power in another.
 
 ---
 
-## Visual overview
+## Visual Overview
 
-```text
-MAIN (Player Lifecycle)      ERRSA (Identity)           STAFF (Authority)
-──────────────────────      ────────────────────      ───────────────────
-default                     errsa                     mod
-  │                          │                         │
-  ▼                          ▼                         ▼
-user                        hallrep                  admin
-  │                          │                         │
-  ▼                          ▼                         ▼
-premium (VIP)               legacy                   dev
-                             │
-                             ▼
-                          execcoord
-                             │
-                             ▼
-                          execboard
-                             │
-                             ▼
-                           advisor
-```
+!!! note "How to read this diagram"
+    These are **parallel lanes**, not inheritance chains.  
+    VIP (`premium`) is a cosmetic overlay and does **not** move someone toward staff authority.
 
-- Coordinate changes with Admins
-- Follow backup procedures
-- Document all technical changes
+    ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
+    │ MAIN — Player Lifecycle  │   │ ERRSA — Identity          │   │ STAFF — Authority        │
+    ├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
+    │ default  (unverified)    │   │ errsa                     │   │ mod                      │
+    │ user     (verified)      │   │ hallrep                   │   │ admin                    │
+    │ premium  (VIP cosmetic)  │   │ legacy                    │   │ dev                      │
+    │                          │   │ execcoord                 │   │                          │
+    │                          │   │ execboard                 │   │                          │
+    │                          │   │ advisor                   │   │                          │
+    └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
 
-## MAIN track — Player lifecycle##
-Controls when a player can interact with the server
+---
 
-**`default`**
+## MAIN Track — Player Lifecycle
 
+Controls **when** a player can interact with gameplay.
+
+### `default` — Unverified
 - First join / unverified
-- Player isolated (void)
+- Isolated (void)
 - Email verification only
-- No gameplay access
+- ❌ No gameplay access
 
-**`user`**
-
-- Verified player
+### `user` — Verified Player
 - Full survival gameplay
 - Economy, claims, warps, voice chat
 
-**`premium` (VIP)**
-
-- Optional cosmetic overlay
+### `premium` — VIP Cosmetic Overlay
 - Prefixes, QoL, cosmetics
-- **Never grants authority**
+- ✅ Cosmetic-only benefits
+- ❌ **Never grants authority**
 
-## ERRSA track — Organization & identity##
-Controls who someone is within ERRSA
+!!! warning "MAIN Track Boundary"
+    MAIN determines **play state**, not staff power.  
+    VIP status does **not** grant moderation or admin abilities.
 
-Groups:
+---
 
+## ERRSA Track — Organization & Identity
+
+Controls **who someone is within ERRSA**.
+
+### Groups
 - `errsa`
 - `hallrep`
 - `legacy`
@@ -66,61 +69,77 @@ Groups:
 - `execboard`
 - `advisor`
 
-Purpose:
+### Purpose
+- Prefixes and recognition
+- Organizational identity only
 
-- Prefixes & recognition
-- Organizational identity
+!!! danger "Hard Boundary"
+    ERRSA identity groups **never** grant moderation, admin, or developer permissions.
 
-!!! note
-    ERRSA membership **never** grants moderation, admin, or dev permissions.
+---
 
-## "STAFF track — Authority" ##
-Controls what actions affect other players or the server
+## STAFF Track — Authority
 
-**`mod` — Moderation**
+Controls **actions that affect other players or the server**.
 
+### `mod` — Moderation
 - Enforce rules
 - Mute / kick / ban
 - Investigate players
-- View logs & alerts  
-🚫 Cannot fix damage
-🚫 Cannot override protections
-🚫 Not OP
+- View logs, alerts, socialspy
 
-**`admin` — Operations**
+**Does NOT grant:**
+- ❌ Rollbacks or fixes
+- ❌ Claim overrides
+- ❌ Operator (OP)
 
-- Fix damage (rollbacks)
-- Override claims & protections
-- Resolve incidents
-- Coordinate staff response  
-🚫 Cannot install plugins
-🚫 Cannot edit configs
-🚫 Cannot modify LuckPerms
-🚫 **Admins are not OP**
+---
 
-*Admins help devs with non-technical server management.*
+### `admin` — Operations
+- Rollbacks and damage restoration
+- Claim and protection overrides
+- Incident resolution
+- Staff coordination
 
-**`dev` — Technical authority**
+**Does NOT grant:**
+- ❌ Plugin installation
+- ❌ Config editing
+- ❌ LuckPerms modification
+- ❌ Operator (OP)
 
+*Admins support devs but do not replace them.*
+
+---
+
+### `dev` — Technical Authority
 - Full system access (`*`)
-- Plugins & configs
-- Permissions structure
-- Backend & stability
+- Plugins and configs
+- Permissions architecture
+- Backend and stability
 
-!!! note 
-  Devs are the only role given operator commands
+!!! note "Operator Access"
+    **Only devs receive operator commands.**
 
-##Escalation Flow##
-Player behavior issue?  → mod
-Damage or incident?     → admin
-System/plugin/config?   → dev
+!!! tip "Change Control"
+    - Coordinate impactful changes with Admins
+    - Follow backup procedures
+    - Document all technical changes
 
-If you’re unsure:
+---
 
-- Escalate upward
-- Document the issue
-- Do not self-assign permissions
+## Escalation Flow
 
-----
-__Last reviewed: 2025-01
+| Situation | Escalate To |
+|---------|-------------|
+| Player behavior issue | `mod` |
+| Damage or incident | `admin` |
+| Plugins / configs / permissions | `dev` |
 
+!!! warning "If Unsure"
+    - Escalate upward
+    - Document the issue
+    - Never self-assign permissions
+
+---
+
+_Last reviewed: 2025-01_
