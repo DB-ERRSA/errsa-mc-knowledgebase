@@ -131,8 +131,6 @@ Controls **actions that affect other players or the server**.
 ---
 
 
-<div class="center-table">
-
 !!! note "Escalation Flow"
 
     | Situation | Escalate To |
@@ -141,7 +139,6 @@ Controls **actions that affect other players or the server**.
     | Damage or incident | `admin` |
     | Plugins / configs / permissions | `dev` |
 
-</div>
 
 !!! warning "If Unsure"
     - Escalate upward
