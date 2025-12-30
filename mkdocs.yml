@@ -1,6 +1,9 @@
 site_name: ERRSA MC Knowledgebase
 site_description: Documentation for ERRSA Minecraft server operations, plugins, standards, and troubleshooting.
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   features:
@@ -48,5 +51,3 @@ nav:
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
 
-extra_css:
-  - stylesheets/extra.css
