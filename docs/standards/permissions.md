@@ -1,85 +1,111 @@
-## Permissions philosophy
+# Permissions Model
 
-Permissions on the ERRSA Minecraft server are structured to reflect **roles and responsibilities**, not seniority or trust alone.
+The ERRSA MC server uses **three parallel permission tracks**.  
+Each track answers a different question about a player.
 
-Staff permissions are intentionally separated to ensure:
+---
 
-- accountability
-- safety
-- clear escalation paths
-- separation of technical and non-technical authority
+## Visual overview
 
-This structure mirrors the official ERRSA MC Staff Documentation.
-
-## Staff permission tracks
-
-The server uses three staff permission tiers, aligned with ERRSA policy:
-
-- **Moderator** — rule enforcement and player safety
-- **Admin** — operational management and escalation (super-mod)
-- **Developer** — technical ownership and implementation
-
-### Moderator
-
-**Role**: Front-line rule enforcement  
-**Focus**: Player behavior and community safety
-
-Allowed:
-
-- Warnings, mutes, kicks, bans (per procedure)
-- Teleport tools for moderation
-- Investigation commands (read-only)
-- Chat and sign moderation
-
-Not allowed:
-
-- Creative mode
-- World modification
-- Plugin interaction
-- Permission management
-- Config changes
-
-### Admin
-
-**Role**: Operational management  
-**Focus**: Escalation, investigation, coordination
-
-Admins exist to support Developers by handling **non-technical server management**.
-
-Allowed:
-
-- All Moderator permissions
-- Investigation tools (CoreProtect, rollbacks)
-- Limited creative access for repairs
-- Breaking lag machines
-- Staff coordination and escalation
-- Incident documentation and logging
-
-Not allowed:
-
-- Uploading/removing plugins
-- Editing config files
-- Changing LuckPerms structure
-- Database access
-- Apex backend changes
-
-### Developer
-
-**Role**: Technical ownership  
-**Focus**: Stability, performance, and implementation
-
-Allowed:
-
-- All Admin permissions
-- Plugin installation, removal, and updates
-- Config editing
-- World editing for builds or fixes
-- Apex Hosting panel access
-- Technical troubleshooting and exploits
-- Permission structure changes (LuckPerms)
-
-Expectations:
+```text
+MAIN (Player Lifecycle)      ERRSA (Identity)           STAFF (Authority)
+──────────────────────      ────────────────────      ───────────────────
+default                     errsa                     mod
+  │                          │                         │
+  ▼                          ▼                         ▼
+user                        hallrep                  admin
+  │                          │                         │
+  ▼                          ▼                         ▼
+premium (VIP)               legacy                   dev
+                             │
+                             ▼
+                          execcoord
+                             │
+                             ▼
+                          execboard
+                             │
+                             ▼
+                           advisor
+```
 
 - Coordinate changes with Admins
 - Follow backup procedures
 - Document all technical changes
+
+!!! info "MAIN track — Player lifecycle"
+Controls when a player can interact with the server
+**`default`**
+- First join / unverified
+- Player isolated (void)
+- Email verification only
+- No gameplay access
+
+**`user`**
+- Verified player
+- Full survival gameplay
+- Economy, claims, warps, voice chat
+
+**`premium` (VIP)**
+- Optional cosmetic overlay
+- Prefixes, QoL, cosmetics
+- **Never grants authority**
+
+!!! note "ERRSA track — Organization & identity"
+Controls who someone is within ERRSA
+
+Groups:
+
+- `errsa`
+- `hallrep`
+- `legacy`
+- `execcoord`
+- `execboard`
+- `advisor`
+
+Purpose:
+- Prefixes & recognition
+- Organizational identity
+
+!!! danger
+    ERRSA membership **never** grants moderation, admin, or dev permissions.
+
+!!! warning "STAFF track — Authority"
+Controls what actions affect other players or the server
+**`mod` — Moderation**
+- Enforce rules
+- Mute / kick / ban
+- Investigate players
+- View logs & alerts  
+🚫 Cannot fix damage • 🚫 Cannot override protections • 🚫 Not OP
+
+**`admin` — Operations**
+- Fix damage (rollbacks)
+- Override claims & protections
+- Resolve incidents
+- Coordinate staff response  
+🚫 Cannot install plugins • 🚫 Cannot edit configs • 🚫 Cannot modify LuckPerms • 🚫 **Admins are not OP**  
+*Admins help devs with non-technical server management.*
+
+**`dev` — Technical authority**
+- Full system access (`*`)
+- Plugins & configs
+- Permissions structure
+- Backend & stability
+
+!!! danger
+    Dev is **not** “Admin with more buttons”.
+
+##Escalation Flow##
+Player behavior issue?  → mod
+Damage or incident?     → admin
+System/plugin/config?   → dev
+
+If you’re unsure:
+
+- Escalate upward
+- Document the issue
+- Do not self-assign permissions
+
+----
+_Last reviewed: 2025-01
+
