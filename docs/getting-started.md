@@ -10,7 +10,7 @@ Read this fully before making **any** changes.
 - Developers maintaining plugins, configs, or infrastructure
 - Officers taking over server ownership or finances
 
-If you are only moderating in-game, you likely do **not** need this page.
+If you are only moderating in-game, you likely do **not** need this page (helpful to know).
 
 ---
 
@@ -29,7 +29,7 @@ If you are only moderating in-game, you likely do **not** need this page.
 
 ### Hosting
 - **Provider**: Apex Hosting  
-- **Access**: Shared via ERRSA admin credentials  
+- **Access**: Admins, Developers, MC Lead, and ERRSA Exec
 - **Primary responsibilities**:
   - Server uptime
   - File access
@@ -42,9 +42,10 @@ If you are only moderating in-game, you likely do **not** need this page.
 ---
 
 ### Server files
-Accessible through the Apex Panel → **File Manager** or **SFTP**.
+Accessible through the Apex Panel → **File Manager** or **FTP File Access**.
 
 Common locations:
+
 - `/plugins/` — all plugin `.jar` files
 - `/plugins/<PluginName>/` — plugin configs and data
 - `/logs/` — crash reports and runtime logs
@@ -55,9 +56,9 @@ Common locations:
 ### Database
 - **Tool**: phpMyAdmin (via Apex)
 - **Used for**:
-  - Player data
-  - Plugin persistence
-  - Future monetization integrations
+  - Player initialization
+  - Storing player emails
+  - Handles external registration
 
 !!! warning
     Never manually edit database tables unless the plugin documentation explicitly says it is safe.
@@ -70,7 +71,7 @@ Common locations:
 - **Scope**:
   - World files
   - Plugin configs
-  - Database snapshots (if enabled)
+  - Player data
 
 !!! danger
     Never update plugins or configs without a recent backup.
@@ -80,8 +81,8 @@ Common locations:
 ## Golden rules (non-negotiable)
 
 1. **No backup = no change**  
-2. **Document every plugin or config change** in this wiki  
-3. **Never give players permissions directly** — always use groups  
+2. **Document every plugin or config change** in this wiki **AND** in the changelog (LINK HERE)
+3. **Never give players permissions directly** — always use Luckyperm groups  
 4. **Restart > reload** unless plugin docs explicitly say reload is safe  
 
 Breaking these rules is how servers get corrupted.
