@@ -18,7 +18,7 @@ Each track answers a different question about a player.
 !!! note "How to read this diagram"
     These are **parallel lanes**, not inheritance chains.  
     VIP (`premium`) is a cosmetic overlay and does **not** move someone toward staff authority.
-
+```
     ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
     │ MAIN — Player Lifecycle  │   │ ERRSA — Identity         │   │ STAFF — Authority        │
     ├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
@@ -29,7 +29,7 @@ Each track answers a different question about a player.
     │                          │   │ execboard                │   │                          │
     │                          │   │ advisor                  │   │                          │
     └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
-
+```
 ---
 
 ## MAIN Track — Player Lifecycle
