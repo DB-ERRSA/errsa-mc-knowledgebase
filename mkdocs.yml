@@ -43,14 +43,66 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+
+  - Getting Started:
+      - Overview: getting-started.md
+
   - Standards:
       - Permissions Model: standards/permissions.md
+
   - Plugins:
       - Overview: plugins/README.md
-      - Template: plugins/template.md
-      - List:
-          - LuckPerms: plugins/luckperms
+      - Template (Do Not Edit): plugins/template.md
+
+      - Core & Infrastructure:
+          - LuckPerms: plugins/luckperms.md
+          - Vault: plugins/vault.md
+          - PlaceholderAPI: plugins/placeholderapi.md
+          - ProtocolLib: plugins/protocollib.md
+          - ViaVersion: plugins/viaversion.md
+          - Geyser / Floodgate: plugins/geyser-floodgate.md
+
+      - Moderation & Protection:
+          - CoreProtect: plugins/coreprotect.md
+          - GriefPrevention: plugins/griefprevention.md
+          - ChatFilter: plugins/chatfilter.md
+          - TABCompleteFilter: plugins/tabcompletefilter.md
+
+      - Gameplay & Economy:
+          - EssentialsX: plugins/essentialsx.md
+          - QuickShop: plugins/quickshop.md
+          - SilkSpawners: plugins/silkspawners.md
+          - WarpGUI: plugins/warpgui.md
+          - Chunky: plugins/chunky.md
+
+      - Worlds & Regions:
+          - WorldGuard: plugins/worldguard.md
+          - WorldGuard Extra Flags: plugins/worldguard-extraflags.md
+          - Multiverse-Core: plugins/multiverse-core.md
+          - Multiverse-Portals: plugins/multiverse-portals.md
+          - PerWorldInventory: plugins/perworldinventory.md
+
+      - Identity & Cosmetics:
+          - FancyHolograms: plugins/fancyholograms.md
+          - FancyNPCs: plugins/fancynpcs.md
+          - MiniMOTD: plugins/minimotd.md
+          - SkinsRestorer: plugins/skinsrestorer.md
+          - InvisibleFrames: plugins/invisibleframes.md
+          - TAB: plugins/tab.md
+
+      - Voice, Web & External:
+          - Simple Voice Chat: plugins/voicechat.md
+          - Dynmap: plugins/dynmap.md
+          - Tebex: plugins/tebex.md
+          - Vivecraft: plugins/vivecraft.md
+
+      - Automation (Dev Only):
+          - Skript: plugins/skript.md
+          - SkBee: plugins/skbee.md
+
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
+      - Plugin Issues: troubleshooting/plugin-issues.md
+      - Permission Issues: troubleshooting/permissions.md
+
 
