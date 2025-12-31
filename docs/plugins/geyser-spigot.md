@@ -2,7 +2,7 @@
 
 ## Purpose
 
-**Category:** `Infrastructure`
+**Category:** `Core & Infrastructure`
 
 Geyser allows **Bedrock Edition clients** to connect to the ERRSA MC Java server by translating Bedrock network traffic into Java-compatible packets.
 
