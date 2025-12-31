@@ -30,6 +30,8 @@ theme:
 
 markdown_extensions:
   - admonition
+  - pymdownx.snippets
+  - md_in_html
   - toc:
       permalink: true
   - tables
