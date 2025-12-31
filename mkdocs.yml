@@ -49,6 +49,7 @@ nav:
   - Plugins:
       - Overview: plugins/README.md
       - Template: plugins/template.md
+          - LuckPerms: plugins/LuckPerms
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
 
