@@ -31,7 +31,8 @@ theme:
 
 markdown_extensions:
   - admonition
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      check_paths: true
   - md_in_html
   - toc:
       permalink: true
