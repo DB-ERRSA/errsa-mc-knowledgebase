@@ -48,7 +48,7 @@ nav:
       - Permissions Model: standards/permissions.md
   - Plugins:
       - Overview: plugins/README.md
-      - Template: plugins/Template.md
+      - Template: plugins/template.md
   - Troubleshooting:
       - Common Issues: troubleshooting/common-issues.md
 
