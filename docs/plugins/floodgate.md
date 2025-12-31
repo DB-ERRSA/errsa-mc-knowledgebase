@@ -2,7 +2,7 @@
 
 ## Purpose
 
-**Category:** `Infrastructure`
+**Category:** `Core & Infrastructure`
 
 Floodgate enables **Bedrock Edition players** to join the ERRSA MC Java server through Geyser.  
 It handles Bedrock player authentication, identity mapping, and Bedrock-specific permission handling.
