@@ -1,4 +1,4 @@
-# <Plugin Name>
+# Template <Plugin Name>
 
 !!! abstract "Purpose"
     **Category:** <Gameplay / Moderation / Protection / Infrastructure / Cosmetics / Mapping>  
