@@ -1,7 +1,8 @@
 # Template <Plugin Name>
 
-!!! abstract "Purpose"
-    **Category:** <Gameplay / Moderation / Protection / Infrastructure / Cosmetics / Mapping>  
+## Purpose
+
+    **Category:** `Category` <Gameplay / Moderation / Protection / Infrastructure / Cosmetics / Mapping>  
 
    Text <1–2 sentence plain-English description of what this plugin exists to do on ERRSA MC.>
 
