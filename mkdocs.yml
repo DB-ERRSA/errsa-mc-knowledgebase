@@ -55,48 +55,62 @@ nav:
       - Template (Do Not Edit): plugins/template.md
 
       - Core & Infrastructure:
+          - Floodgate: plugins/floodgate.md
+          - Geyser: plugins/geyser-spigot.md
           - LuckPerms: plugins/luckperms.md
-          - Vault: plugins/vault.md
           - PlaceholderAPI: plugins/placeholderapi.md
+          - PlayerInitialization: plugins/playerinitialization.md
           - ProtocolLib: plugins/protocollib.md
+          - TABCompleteFilter: plugins/tabcompletefilter.md
+          - Vault: plugins/vault.md
           - ViaVersion: plugins/viaversion.md
-          - Geyser / Floodgate: plugins/geyser-floodgate.md
 
       - Moderation & Protection:
+          - ChatFilter: plugins/chatfilter.md
           - CoreProtect: plugins/coreprotect.md
           - GriefPrevention: plugins/griefprevention.md
-          - ChatFilter: plugins/chatfilter.md
-          - TABCompleteFilter: plugins/tabcompletefilter.md
-
+          - Themis: plugins/themis.md
+          
       - Gameplay & Economy:
-          - EssentialsX: plugins/essentialsx.md
+          - ArmorStandTools: plugins/armorstandtools.md
+          - DragonDropElytra: plugins/dragondropelytra.md
+          - ERRSA-MC-Core: plugins/errsa-mc-core.md
+          - Essentials: plugins/essentials.md
+          - InvisibleFrames: plugins/invisibleframes.md
+          - PVPToggle: plugins/pvptoggle.md
           - QuickShop: plugins/quickshop.md
           - SilkSpawners: plugins/silkspawners.md
           - WarpGUI: plugins/warpgui.md
-          - Chunky: plugins/chunky.md
+          - Wild: plugins/wildgui.md
 
       - Worlds & Regions:
-          - WorldGuard: plugins/worldguard.md
-          - WorldGuard Extra Flags: plugins/worldguard-extraflags.md
+          - Chunky: plugins/chunky.md
+          - ChunkyBorder: plugins/chunkyborder.md
+          - EssentialsSpawn: plugins/essentialsspawn.md
+          - FastAsyncVoxelSniper: plugins/fastasyncvoxelsniper.md 
+          - FastAsyncWorldEdit: plugins/fastasyncworldedit.md 
+          - InvisibleFrames: plugins/invisibleframes.md
           - Multiverse-Core: plugins/multiverse-core.md
           - Multiverse-Portals: plugins/multiverse-portals.md
+          - My_Worlds: plugins/my_worlds.md
           - PerWorldInventory: plugins/perworldinventory.md
+          - WorldGuard: plugins/worldguard.md
+          - WorldGuard Extra Flags: plugins/worldguard-extraflags.md
 
       - Identity & Cosmetics:
+          - AutoMessage: plugins/automessage.md
+          - EssentialsChat: plugins/essentialschat.md
           - FancyHolograms: plugins/fancyholograms.md
           - FancyNPCs: plugins/fancynpcs.md
           - MiniMOTD: plugins/minimotd.md
-          - SkinsRestorer: plugins/skinsrestorer.md
-          - InvisibleFrames: plugins/invisibleframes.md
+          - Maintenance: plugins/maintenance.md
           - TAB: plugins/tab.md
 
       - Voice, Web & External:
           - Simple Voice Chat: plugins/voicechat.md
-          - Dynmap: plugins/dynmap.md
           - Tebex: plugins/tebex.md
-          - Vivecraft: plugins/vivecraft.md
 
-      - Automation (Dev Only):
+      - Automation:
           - Skript: plugins/skript.md
           - SkBee: plugins/skbee.md
 
