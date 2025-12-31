@@ -16,17 +16,8 @@ Geyser does not modify gameplay rules, permissions, or authority; it only provid
     - **Server:** Paper 1.21.4
     - **Plugins:**
       - `Floodgate`
-      - `ProtocolLib`
-    - **External services (if any):**
-      - None
 
 ---
-
-## Permissions Model
-
-!!! note "Permissions are intentionally scoped"
-    Geyser operates outside the permission hierarchy.  
-    All permissions are enforced through **LuckPerms** after player initialization.
 
 ### Player permissions
 - Bedrock players receive the **same MAIN-track permissions** as Java players
