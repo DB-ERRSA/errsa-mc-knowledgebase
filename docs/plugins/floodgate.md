@@ -7,7 +7,6 @@
 Floodgate enables **Bedrock Edition players** to join the ERRSA MC Java server through Geyser.  
 It handles Bedrock player authentication, identity mapping, and Bedrock-specific permission handling.
 
-Floodgate does **not** grant gameplay advantages or staff authority.
 
 ---
 
@@ -17,8 +16,6 @@ Floodgate does **not** grant gameplay advantages or staff authority.
     - **Server:** Paper 1.21.4
     - **Plugins:**
       - `Geyser-Spigot`
-    - **External services (if any):**
-      - None (local authentication handling)
 
 ---
 
@@ -102,31 +99,6 @@ These settings ensure Bedrock players follow the **same lifecycle and verificati
 
 ---
 
-## Common Issues & Fixes
-
-### Issue: Bedrock player can join but cannot interact
-**Likely cause:** Player is still in `default` (unverified) state  
-**Fix:** Complete verification process  
-**Escalate if:** Player remains stuck after verification → `dev`
-
----
-
-### Issue: Bedrock username conflicts with Java player
-**Likely cause:** Prefix handling misconfigured  
-**Fix:** Verify Floodgate prefix settings  
-**Escalate if:** Requires config change → `dev`
-
----
-
-## Escalation
-
-| Situation | Escalate To |
-|----------|-------------|
-| Bedrock player access confusion | `mod` |
-| Verification or lifecycle issue | `admin` |
-| Floodgate or Geyser bug | `dev` |
-
----
 
 _Last verified: 2025-12-30_  
 _Server version: 1.21.4_
