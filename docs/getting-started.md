@@ -89,18 +89,6 @@ Breaking these rules is how servers get corrupted.
 
 ---
 
-## First-day checklist (new admin)
-
-Complete these before touching production:
-
-- [ ] Can log into Apex Hosting
-- [ ] Can access File Manager or SFTP
-- [ ] Can view LuckPerms groups
-- [ ] Can locate server logs
-- [ ] Has read the Permissions Model page
-- [ ] Understands backup process
-
----
 
 ## How changes should be made
 
