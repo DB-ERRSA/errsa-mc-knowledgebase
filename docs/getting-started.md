@@ -5,6 +5,11 @@ Read this fully before making **any** changes.
 
 ---
 
+## Purpose
+The ERRSA MC Wiki is a technical knowledgebase that documents how the server is built, how plugins behave, and how systems are intended to function. It is not a replacement for the official ERRSA Minecraft Staff Documentation, which defines rules, expectations, authority, and disciplinary procedures. When questions involve conduct, punishment, or policy, the Staff Documentation is the source of truth. When questions involve plugins, permissions, configurations, or server behavior, this wiki is the source of truth.
+
+---
+
 ## Who this is for
 - Incoming ERRSA MC admins
 - Developers maintaining plugins, configs, or infrastructure
