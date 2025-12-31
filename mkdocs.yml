@@ -3,7 +3,7 @@ site_description: Documentation for ERRSA Minecraft server operations, plugins, 
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/permissions-model
+  - stylesheets/permissions-model.css
 
 theme:
   name: material
