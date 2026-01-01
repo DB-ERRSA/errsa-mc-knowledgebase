@@ -192,4 +192,43 @@
   .permissions-visual .role-note{ margin-left:auto; }
 }
 
+/* --- Wide-screen cleanup for MkDocs Material --- */
+
+/* Make the visual block expand wider than normal content column */
+.permissions-visual{
+  /* pull the block wider without breaking the page layout */
+  width: min(1100px, 100%);
+  margin: 12px auto 0;
+}
+
+/* On big screens, let it go "full-bleed" a bit (looks cleaner in max window) */
+@media (min-width: 1200px){
+  .permissions-visual{
+    width: min(1280px, 100%);
+  }
+}
+
+/* Improve card sizing + spacing so it doesn't look cramped next to the TOC */
+.permissions-visual .role-grid{
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap:18px;
+}
+
+/* Give cards a consistent visual height so the bottoms line up */
+.permissions-visual .role-card{
+  min-height: 320px;
+}
+
+/* Increase readability a bit on larger screens */
+@media (min-width: 1200px){
+  .permissions-visual .role-title{ font-size: 1.12rem; }
+  .permissions-visual .role-list li{ padding: 11px 13px; }
+  .permissions-visual .chip{ padding: 9px 13px; }
+}
+
+/* Optional: keep tooltip inside view, and prefer not to overlap the TOC */
+.permissions-visual .hover::after,
+.permissions-visual .chip::after{
+  max-width: 320px;
+}
 
