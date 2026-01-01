@@ -1,7 +1,7 @@
 # Getting Started
 
 How the ERRSA MC server is structured, where systems live, and how changes are made safely.
-!!! "info" You are not expected to memorize this page
+!!! info "You are not expected to memorize this page"
 You are expected to know where answers live and when to escalate
 ---
 
