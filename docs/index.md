@@ -1,43 +1,47 @@
 # Home
 
-Operational documentation for the ERRSA Minecraft server: plugins, standards, procedures, and troubleshooting.
+Operational documentation for the ERRSA Minecraft server - plugins, standards, procedures, and troubleshooting.
 
 ## Start here
 
 <div class="grid cards" markdown>
 
 - :material-rocket-launch: **Getting Started**  
-  New devs/admins: how the server is set up and where everything lives.  
+  New committee members and admins: how the server is structured and where things live.
   [Open →](getting-started.md)
 
-- :material-puzzle: **Plugins**  
-  Per-plugin pages: purpose, configs, permissions, commands, update steps.  
-  [Open →](plugins/README.md)
+- :material-wrench: **Learning Path**  
+  Learning material from beginner to operator.  
+  [Open →](learning-path/mod1.md)
+
 
 - :material-shield-lock: **Permissions Model**  
-  LuckPerms group structure, staff roles, and access control rules.  
+  How access, authority, and identity are seperated by three main tracks  
   [Open →](standards/permissions.md)
 
-- :material-wrench: **Troubleshooting**  
-  Common failures, log locations, and quick fixes.  
-  [Open →](troubleshooting/common-issues.md)
+- :material-puzzle: **Plugins**  
+  Per-plugin pages: purpose, configs, permissions, commands.  
+  [Open →](plugins/README.md)
 
 </div>
 
 
 ---
 
-## Operating Rules
-!!! warning "Change control"
-    Back up before modifying plugins or configs.
+## Who This Wiki is For
+This wiki is written for ERRSA MC committee members, admins, and developers responsible for operating the server.
+
+If you are moderating in-game only, most sections here are reference material and not required reading.
+
+## Wiki Rules
 
 !!! tip "Documentation discipline"
-    If you change it, update the wiki the same day.
+    If you update or add a plugin, update the wiki the same day.
 
 !!! info "Source of truth"
     This wiki is the handoff reference for future ERRSA MC admins.
 
     ---
 This knowledgebase is the **authoritative operational reference** for the ERRSA Minecraft server.  
-All configuration, permissions, and procedures should align with the documentation herein.
+
 
