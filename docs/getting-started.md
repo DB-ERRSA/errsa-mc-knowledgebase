@@ -1,48 +1,49 @@
 # Getting Started
 
-This page orients new developers and administrators to the ERRSA Minecraft server.  
-Read this fully before making **any** changes.
-
+How the ERRSA MC server is structured, where systems live, and how changes are made safely.
+!!! You are not expected to memorize this page
+You are expected to know where answers live and when to escalate
 ---
 
 ## Purpose
-The ERRSA MC Wiki is a technical knowledgebase that documents how the server is built, how plugins behave, and how systems are intended to function. It is not a replacement for the official ERRSA Minecraft Staff Documentation, which defines rules, expectations, authority, and disciplinary procedures. When questions involve conduct, punishment, or policy, the Staff Documentation is the source of truth. When questions involve plugins, permissions, configurations, or server behavior, this wiki is the source of truth.
+This page orients new ERRSA MC committee members, admins, and developers to how the server is built and operated. It provides a high-level overview of systems, access, and workflows before any technical changes are made.
 
 ---
 
 ## Who this is for
-- Incoming ERRSA MC admins
-- Developers maintaining plugins, configs, or infrastructure
-- Officers taking over server ownership or finances
 
-If you are only moderating in-game, you likely do **not** need this page (helpful to know).
+- Incoming ERRSA MC committee members
+- Admins and Developers assuming operational responsibility
 
+
+## Who can skip most of this
+
+- Moderators acting only in-game
+- Staff not responsible for server configuration
 ---
 
 ## System overview (high level)
 
-- **Game server**: Minecraft (Paper)
-- **Host**: Apex Hosting
-- **Management panel**: Apex Panel
-- **Database access**: phpMyAdmin (via Apex)
-- **Permissions**: LuckPerms
-- **Source of truth**: This knowledgebase
+- **Game server:** Minecraft (Paper)
+- **Hosting provider:** Apex Hosting
+- **Management panel:** Apex Panel
+- **Database:** MySQL (via phpMyAdmin)
+- **Permissions:** LuckPerms
+- **Source of truth:** This wiki
+
 
 ---
 
-## Where things live
+## Hosting Operations
 
-### Hosting
-- **Provider**: Apex Hosting  
 - **Access**: Admins, Developers, MC Lead, and ERRSA Exec
+  
 - **Primary responsibilities**:
   - Server uptime
   - File access
   - Backups
   - Database hosting
 
-!!! tip
-    Never share Apex credentials outside approved ERRSA admins.
 
 ---
 
@@ -62,8 +63,8 @@ Common locations:
 - **Tool**: phpMyAdmin (via Apex)
 - **Used for**:
   - Player initialization
-  - Storing player emails
-  - Handles external registration
+  - Email verification
+  - External registration systems
 
 !!! warning
     Never manually edit database tables unless the plugin documentation explicitly says it is safe.
@@ -83,12 +84,11 @@ Common locations:
 
 ---
 
-## Golden rules (non-negotiable)
+## Golden rules
 
 1. **No backup = no change**  
 2. **Document every plugin or config change** in this wiki **AND** in the changelog (LINK HERE)
-3. **Never give players permissions directly** — always use Luckyperm groups  
-4. **Restart > reload** unless plugin docs explicitly say reload is safe  
+3. **Never give players permissions directly** — use Luckyperm groups  
 
 Breaking these rules is how servers get corrupted.
 
@@ -106,16 +106,15 @@ Breaking these rules is how servers get corrupted.
 
 ### Unsafe workflow (do not do this)
 - Editing live configs without backup
-- Reloading plugins blindly
+- Reloading plugins blindly (never reload)
 - Making undocumented changes
-- “Just testing something real quick”
 
 ---
 
 ## Where to go next
-- **Permissions** → How access control is structured  
-- **Plugins** → Per-plugin documentation and update steps  
-- **Troubleshooting** → What to do when things break  
+- **Learning Path** — Guided modules from beginner to trusted operator
+- **Permissions Model** — How access and authority are structured
+- **Plugins** — Per-plugin documentation and behavior
 
 ---
 
