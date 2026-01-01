@@ -17,15 +17,73 @@ The ERRSA MC server uses **parallel authority tracks**, not a single permission 
 
 Belonging to one track **never** grants power in another.
 
-## The three parallel tracks
+## Visual Overview
 
-Each player exists simultaneously in three independent systems:
+!!! note "Interactive Permissions Model"
+    Hover over each role to see what it means and what it **does not** imply.
 
-- **MAIN** — Can this player interact with gameplay?
-- **ERRSA** — Who is this player within the organization?
-- **STAFF** — What authority does this player have over others?
+ <div class="permissions-visual">
+      <section class="role-grid" aria-label="Server roles overview">
+        <!-- MAIN -->
+        <article class="role-card">
+          <header class="role-head">
+            <div class="role-kicker">MAIN</div>
+            <h3 class="role-title">Player Lifecycle</h3>
+          </header>
+          <ul class="role-list">
+            <li class="hover" data-tip="Unverified player. Limited access until email verification is completed.">
+              <span class="role-name">default</span>
+              <span class="role-note">unverified</span>
+            </li>
+            <li class="hover" data-tip="Verified player with standard access to the server.">
+              <span class="role-name">user</span>
+              <span class="role-note">verified</span>
+            </li>
+            <li class="hover" data-tip="Optional cosmetic rank purchased by the user. Cosmetic-only benefits; no gameplay/staff authority.">
+              <span class="role-name">premium</span>
+              <span class="role-note">VIP cosmetic</span>
+            </li>
+          </ul>
+        </article>
+        <!-- ERRSA -->
+        <article class="role-card">
+          <header class="role-head">
+            <div class="role-kicker">ERRSA</div>
+            <h3 class="role-title">Identity</h3>
+          </header>
+          <div class="chip-wrap" role="list" aria-label="ERRSA identity roles">
+            <span class="chip" role="listitem" data-tip="General member of the Embry-Riddle Resident Student Association.">errsa</span>
+            <span class="chip" role="listitem" data-tip="Hall Representative serving a specific residence hall.">hallrep</span>
+            <span class="chip" role="listitem" data-tip="Former Executive Board member. Recognition role.">legacy</span>
+            <span class="chip" role="listitem" data-tip="Executive Coordinator assisting ERRSA operations and initiatives.">execcoord</span>
+            <span class="chip" role="listitem" data-tip="Current Executive Board member with organizational leadership duties.">execboard</span>
+            <span class="chip" role="listitem" data-tip="Official ERRSA advisor providing oversight and guidance.">advisor</span>
+          </div>
+          <p class="role-footnote">
+            Identity roles describe your relationship to ERRSA (not staff authority).
+          </p>
+        </article>
+        <!-- STAFF -->
+        <article class="role-card">
+          <header class="role-head">
+            <div class="role-kicker">STAFF</div>
+            <h3 class="role-title">Authority</h3>
+          </header>
+          <ul class="role-list">
+            <li class="hover" data-tip="Moderation staff responsible for enforcing server rules.">
+              <span class="role-name">mod</span>
+            </li>
+            <li class="hover" data-tip="Administrative staff with elevated permissions and incident-resolution authority.">
+              <span class="role-name">admin</span>
+            </li>
+            <li class="hover" data-tip="Development staff responsible for plugins, configs, systems, and permissions architecture.">
+              <span class="role-name">dev</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
 
-!!! key "Membership in one track **never** implies membership or authority in another."
 
 ## MAIN track — Player lifecycle
 
@@ -35,6 +93,7 @@ It does **not** control authority or organizational status.
 ## ERRSA track — Organization & identity
 
 The ERRSA track represents a player’s identity *within the organization*, not their power on the server.
+
 Examples:
 
   -Executive board members
