@@ -96,10 +96,10 @@ The ERRSA track represents a player’s identity *within the organization*, not 
 
 Examples:
 
-  -Executive board members
-  -Hall representatives
-  -Legacy members
-  -Advisor
+  - Executive board members
+  - Hall representatives
+  - Legacy members
+  - Advisor
 
 ### Purpose
 - Prefixes and recognition
