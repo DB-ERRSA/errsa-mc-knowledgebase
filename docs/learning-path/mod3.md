@@ -137,6 +137,7 @@ Player in wrong server
 ## Module 3 completion check
 
 You have completed this module if you can:
+
 - Identify the correct system before taking action
 - Explain why a plugin is or is not responsible for an issue
 - Escalate appropriately without making unauthorized changes
