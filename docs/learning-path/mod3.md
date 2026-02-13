@@ -78,11 +78,13 @@ and documented elsewhere.
 ## Core vs reference plugins
 
  **Core plugins:**
+ 
   - Covered in training modules
   - Involved in incidents
   - Changes require documentation
 
   **Reference plugins:**
+  
   - Documented for lookup
   - Not required reading
   - Usually gameplay or cosmetic
@@ -98,6 +100,7 @@ and documented elsewhere.
 ## Module 3 completion check
 
 You have completed this module if you can:
+
 - Name the four core operational plugins
 - Explain what each plugin owns
 - Identify which plugin a problem belongs to
