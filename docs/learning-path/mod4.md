@@ -180,5 +180,6 @@ Advanced topics and specialization follow from here.
     Learn about stored data, external systems, and responsibilities that come with the developer role.  
     [:octicons-arrow-right-24: Start Module 5](../learning-path/mod5.md){ .md-button .md-button--primary }
 
+---
 
-
+_Last reviewed: 2025-02-13 | Applies to current ERRSA MC server network_
