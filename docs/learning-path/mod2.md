@@ -40,6 +40,7 @@ No staff action is required for normal verification.
 - The entry point for all new players
 - A controlled environment for verification
 - An expected and intentional state
+  
 
 ### What players can do
 - Agree or disagree to rules
@@ -149,18 +150,22 @@ This module does not authorize fixes.
 It teaches recognition.
 
  **“I’m stuck in the void”**
+ 
   - Player is in PlayerInit
   - Verification incomplete
 
  **“I verified but nothing happened”**
+ 
   - PlayerInit loop has not processed approval yet
   - SQL → LuckPerms promotion pending
 
  **“My name looks weird”**
+ 
   - Bedrock player via Floodgate
   - Expected behavior
 
   **“I can’t join on Bedrock”**
+  
   - Likely join address or port issue
   - Geyser/Floodgate related
 
@@ -169,6 +174,7 @@ It teaches recognition.
 ## What This Module Does NOT Authorize
 
 After completing this module, you are **not** authorized to:
+
  - Edit database entries
  - Change LuckPerms groups
  - Teleport players out of PlayerInit
@@ -181,6 +187,7 @@ If action is required, escalate.
 ## Module 2 Completion Check
 
 You have completed this module if you can:
+
  - Describe the full player lifecycle
  - Explain why PlayerInit exists
  - Identify which system owns a player’s state
