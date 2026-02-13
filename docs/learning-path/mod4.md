@@ -82,7 +82,7 @@ required to safely participate in ERRSA MC server administration.
 
 Advanced topics and specialization follow from here.
 
-_ _
+---
 
 ## Next module
 
