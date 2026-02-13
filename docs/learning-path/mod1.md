@@ -1,4 +1,4 @@
-# Module 1 Purpose
+# Module 1 — Purpose
 
 ## Purpose
 
