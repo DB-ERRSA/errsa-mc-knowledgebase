@@ -77,17 +77,36 @@ and documented elsewhere.
 
 ## Core vs reference plugins
 
- **Core plugins:**
- 
-  - Covered in training modules
-  - Involved in incidents
-  - Changes require documentation
+Plugins are classified based on **impact**, not importance.
 
-  **Reference plugins:**
-  
-  - Documented for lookup
-  - Not required reading
-  - Usually gameplay or cosmetic
+### Core plugins
+Core plugins are systems that:
+
+- Control player access, identity, or authority
+- Affect multiple players or the entire server
+- Are involved in onboarding, moderation, or recovery
+- Can cause widespread disruption if misconfigured
+
+Because of this:
+
+- Core plugins are covered in training modules
+- Core plugin changes must be documented in the server changelog
+- Issues involving core plugins are escalated
+
+### Reference plugins
+Reference plugins are systems that:
+
+- Affect gameplay features or quality-of-life
+- Impact individual players or small groups
+- Do not control access, authority, or onboarding
+- Can usually be disabled or adjusted without system-wide impact
+
+Because of this:
+
+- Reference plugins are documented for lookup
+- Reference plugin changes must be documented in the server changelog
+- Reading them is not required for training
+- Changes are lower-risk and more localized
 
 ## This module does not authorize
 
@@ -102,7 +121,7 @@ and documented elsewhere.
 You have completed this module if you can:
 
 - Name the four core operational plugins
-- Explain what each plugin owns
+- Explain what each core plugin owns
 - Identify which plugin a problem belongs to
 - Know when escalation is required
 
