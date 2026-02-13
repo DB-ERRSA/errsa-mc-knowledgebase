@@ -192,3 +192,13 @@ You have completed this module if you can:
 
 → **Module 3 — Core Operational Plugins**
 
+## Next module
+
+<div class="grid cards" markdown>
+
+-   :rocket: **Module 3 — Core Operational Plugins**  
+    Learn about our core plugins that keeps the server operational
+    [:octicons-arrow-right-24: Start Module 3](../learning-path/mod3.md){ .md-button .md-button--primary }
+
+</div>
+
