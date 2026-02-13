@@ -101,7 +101,7 @@ This module **does**:
 - Provide context for safe operation
 - Teach judgment and escalation
 
-!! info
+!!! info
 Think of this module as a map, not a rulebook.
 
 ## Which document do I use?
