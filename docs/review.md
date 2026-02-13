@@ -12,19 +12,19 @@ start here.
 
 These modules explain **how the server works** and **how authority is structured**.
 
-1. **[Module 1 — Server Architecture & Authority Model](lessons-path/mod1.md)**  
+1. **[Module 1 — Server Architecture & Authority Model](learning-path/mod1.md)**  
    How permissions, identity, and authority are intentionally separated.
 
-2. **[Module 2 — Core Systems & Player Flow](lessons-path/mod2.md)**  
+2. **[Module 2 — Core Systems & Player Flow](learning-path/mod2.md)**  
    How players move from first join to survival gameplay.
 
-3. **[Module 3 — Core Operational Plugins](lessons-path/mod3.md)**  
+3. **[Module 3 — Core Operational Plugins](learning-path/mod3.md)**  
    Which plugins are core, what they own, and how to diagnose issues.
 
-4. **[Module 4 — Documentation, Change Control & Incident Context](lessons-path/mod4.md)**  
+4. **[Module 4 — Documentation, Change Control & Incident Context](learning-path/mod4.md)**  
    Which document governs which action and how to operate safely.
 
-5. **[Module 5 — Advanced Systems & Developer Responsibility](lessons-path/mod5.md)**  
+5. **[Module 5 — Advanced Systems & Developer Responsibility](learning-path/mod5.md)**  
    High-risk systems, long-term responsibility, and trust boundaries.
 
 ---
@@ -34,13 +34,13 @@ These modules explain **how the server works** and **how authority is structured
 These documents define **authority, procedure, and records**.
 If there is ever a conflict, these take precedence over the wiki.
 
-- 📘 **[ERRSA MC Staff Documentation](ERRSA MC Staff Documentation.pdf)**  
+- 📘 **[ERRSA Minecraft Staff Documentation](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQB35CS1dmasS5c-Vnw0cZRBAfcbvYsX7uPr8tgyQqiCltA?e=nAO6lB)**  
   Authority, roles, procedures, escalation, and moderation rules.
 
-- 🧾 **[ERRSA MC Moderation Log](ERRSA MC Moderation Log.pdf)**  
+- 🧾 **[ERRSA MC Moderation Log](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQC9Z34SGOClTL6UiudoX7mfAWQvtb-Rh5HjndcSBSRiAX4?e=7vVClF)**  
   Record of all player-facing enforcement actions.
 
-- 🛠️ **[ERRSA MC Server Changelog](ERRSA MC Server Changelog.pdf)**  
+- 🛠️ **[ERRSA MC Server Changelog](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQDrAgfPe8JAT6WXweW2JVQTAenaBo2SmFIpf1eUWxItUv4?e=WAg2Gh)**  
   Record of all system and configuration changes.
 
 ---
