@@ -108,6 +108,24 @@ Because of this:
 - Reading them is not required for training
 - Changes are lower-risk and more localized
 
+## Incident Ownership Mapping (Gold Section)
+
+This is where admins gain _operational intuition._
+
+**If the problem is…**
+
+Player cannot play
+→ PlayerInitialization / LuckPerms
+
+Permissions feel wrong
+→ LuckPerms (but check upstream first)
+
+Bedrock player can’t join
+→ Floodgate / Geyser / join info
+
+Player in wrong server
+→ Velocity
+
 ## This module does not authorize
 
 - Editing configs
