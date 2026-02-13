@@ -1,3 +1,5 @@
+# Module 3 — Core Operational Plugins
+
 ## Purpose
 
 This module introduces the **core operational plugins** that staff interact with during
