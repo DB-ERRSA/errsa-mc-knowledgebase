@@ -150,8 +150,8 @@ You have completed this module if you can:
 
 <div class="grid cards" markdown>
 
--   :rocket: **Module 4 — Change Control & Incident Response**  
-    Learn how changes are made safely and how incidents are handled.  
+-   :rocket: **Module 4 — Documentation, Change Control, & Incident Context**  
+    Learn about the official governing documents, and how to use them correctly.  
     [:octicons-arrow-right-24: Start Module 4](../learning-path/mod4.md){ .md-button .md-button--primary }
 
 </div>
