@@ -169,10 +169,10 @@ It teaches recognition.
 ## What This Module Does NOT Authorize
 
 After completing this module, you are **not** authorized to:
-- Edit database entries
-- Change LuckPerms groups
-- Teleport players out of PlayerInit
-- Manually bypass verification
+ - Edit database entries
+ - Change LuckPerms groups
+ - Teleport players out of PlayerInit
+ - Manually bypass verification
 
 If action is required, escalate.
 
@@ -181,10 +181,10 @@ If action is required, escalate.
 ## Module 2 Completion Check
 
 You have completed this module if you can:
-- Describe the full player lifecycle
-- Explain why PlayerInit exists
-- Identify which system owns a player’s state
-- Help a player understand what step they are on
+ - Describe the full player lifecycle
+ - Explain why PlayerInit exists
+ - Identify which system owns a player’s state
+ - Help a player understand what step they are on
 
 ---
 
