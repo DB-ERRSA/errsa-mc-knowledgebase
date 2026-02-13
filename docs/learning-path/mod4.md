@@ -13,74 +13,151 @@ This module is a **guide**, not a source of authority.
 
 This module teaches *how those documents work together*.
 
-## What counts as a change
+!!! warning
+    If there is ever a conflict between this module and an official document,** the official document always takes   precedence.**
 
-A change is **anything** that alters server behavior, data, or player access, including:
-- Editing plugin configs
-- Updating or adding plugins
-- Changing permissions or groups
-- Reloading or restarting services
-- Modifying databases
-- Moving players between servers
+## The authoritative documents
 
-## Approved change workflow
+The ERRSA MC server is governed by three official documents.
+Each has a distinct purpose and authority.
 
-1. Confirm a **recent backup** exists
-2. Define exactly what is being changed
-3. Make the change
-4. Restart the affected service
-5. Verify expected behavior
-6. Document the change in the wiki
+### ERRSA Minecraft Staff Documentation
+_(Authority & Procedure)_
 
-## Backups
+**What it governs:**
 
-Backups are provided by the hosting provider and cover:
-- World data
-- Plugin configurations
-- Player data
+ - Staff roles and chain of command
+ - Conduct expectations
+ - Moderation procedures
+ - Punishments, appeals, and escalation
+ - Logging requirements
 
-## Documentation requirements
+**What it answers:**
 
-Any change that affects server behavior must be documented:
-- What changed
-- Why it changed
-- When it changed
-- Who made the change
+ - _“What am I allowed to do?”_
+ - _“What is the correct procedure?”_
+ - _“How should this situation be handled?”_
 
-## Change vs incident
+ **Official authority:**
+   ERRSA Minecraft Staff Documentation
 
-- **Change**
-  - Planned
-  - Controlled
-  - Reversible
+   
 
-- **Incident**
-  - Unplanned
-  - Player-impacting
-  - Requires stabilization before fixing
+### ERRSA MC Moderation Log
+_(Record of Player-Facing Actions)_
+
+**What it records:**
+
+ - Warnings
+ - Mutes, kicks, bans
+ - Administrative actions affecting players
+ - Evidence and notes tied to enforcement
+
+**What it answers:**
+
+ - “What action was taken against a player?”
+ - “When and why did it happen?”
+ - “Who took the action?”
+
+**Official record:**
+ERRSA MC Moderation Log
+
+
+### ERRSA MC Server Changelog
+_(Record of System Changes)_
+
+**What it records:**
+
+ - Plugin additions and updates
+ - Configuration changes
+ - Infrastructure changes
+ - Version history
+
+**What it answers:**
+
+ - “What changed on the server?”
+ - “When did it change?”
+ - “Why was it changed?”
+
+**Official record:**
+ERRSA MC Server Changelog
+
+## Where this module fits
+
+This module does **not**:
+
+- Define punishments
+- Authorize staff actions
+- Replace official procedures
+- Serve as a log
+
+This module **does**:
+
+- Explain which document to use
+- Reinforce documentation discipline
+- Provide context for safe operation
+- Teach judgment and escalation
+
+!! info
+Think of this module as a map, not a rulebook.
+
+## Which document do I use?
+
+| Situation | Use this document |
+|--------|----------------|
+| Player broke a rule | Staff Documentation |
+| Issuing a warning / ban | Moderation Log |
+| Player appeals a ban | Staff Documentation |
+| Plugin updated | Server Changelog |
+| Config changed | Server Changelog |
+| Server behaves differently | Server Changelog |
+| Unsure how to handle a situation | Staff Documentation |
+| Investigating past staff action | Moderation Log |
+
+If you are unsure, do not guess — escalate following the Staff Documentation.
+
+## Change control (document-driven)
+
+Any change to server behavior must:
+1. Follow the Staff Documentation’s authority structure
+2. Be recorded in the Server Changelog
+3. Be executed with a verified backup
+
+## Incident or change?
+
+ **Incident**
  
-## Escalation matrix
+  - Player-facing
+  - Unplanned
+  - Logged in the Moderation Log
+  - Governed by Staff Documentation
 
-- Player behavior or reports → Moderator
-- System instability → Admin
-- Plugin or backend failure → Developer
-- Network or data risk → Committee Lead
+ **Change**
+  
+  - System-facing
+  - Planned or corrective
+  - Logged in the Server Changelog
+  - Governed by Staff Documentation authority
 
-## After an incident
+## Escalation
 
-Once stability is restored:
-- Document the incident
-- Identify root cause
-- Update documentation if needed
-- Adjust procedures to prevent recurrence
+All escalation paths are defined in the Staff Documentation.
+
+When unsure:
+
+- Do not improvise
+- Do not bypass documentation
+- Escalate upward
 
 ## Module 4 completion check
 
 You have completed this module if you can:
-- Define what counts as a change
-- Follow the approved change workflow
-- Distinguish an incident from a planned change
-- Know when to escalate instead of acting
+
+- Identify which document governs a given situation
+- Explain the difference between authority, procedure, and record
+- Use the correct document without improvising
+- Escalate instead of acting when unsure
+
 
 ## Completion
 
