@@ -82,6 +82,15 @@ required to safely participate in ERRSA MC server administration.
 
 Advanced topics and specialization follow from here.
 
+_ _
+
+## Next module
+
+<div class="grid cards" markdown>
+
+-   :rocket: **Module 5 — Advanced Systems & Developer Responsibility**  
+    Learn about stored data, external systems, and responsibilities that come with the developer role.  
+    [:octicons-arrow-right-24: Start Module 5](../learning-path/mod5.md){ .md-button .md-button--primary }
 
 
 
