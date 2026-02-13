@@ -119,11 +119,10 @@ Because of this:
 ## Module 3 completion check
 
 You have completed this module if you can:
+- Identify the correct system before taking action
+- Explain why a plugin is or is not responsible for an issue
+- Escalate appropriately without making unauthorized changes
 
-- Name the four core operational plugins
-- Explain what each core plugin owns
-- Identify which plugin a problem belongs to
-- Know when escalation is required
 
 
 ---
