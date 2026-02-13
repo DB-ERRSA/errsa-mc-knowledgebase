@@ -100,7 +100,7 @@ You have completed this module if you can:
 - Know when escalation is required
 
 
-_ _
+---
 
 ## Next module
 
