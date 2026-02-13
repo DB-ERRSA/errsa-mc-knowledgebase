@@ -12,6 +12,7 @@ This module exists to prevent irreversible damage.
 ## Advanced systems
 
 Advanced systems are any components that:
+
 - Persist data outside the game world
 - Affect multiple servers at once
 - Cannot be safely “undone” in minutes
@@ -20,6 +21,7 @@ Advanced systems are any components that:
 ## Databases & persistent data
 
 The server uses external databases to store:
+
 - Player registration state
 - Email verification status
 - Cross-session identifiers
@@ -31,6 +33,7 @@ Permissions are a **designed system**, not a convenience tool.
 ## Network-level control
 
 Velocity is the control plane for:
+
 - Entry points
 - Server isolation
 - Cross-server movement
@@ -56,6 +59,7 @@ but for the *future consequences* of those changes.
 ## Module 5 completion check
 
 You have completed this module if you:
+
 - Treat access as responsibility, not privilege
 - Understand why restraint matters
 - Know when to escalate instead of acting
