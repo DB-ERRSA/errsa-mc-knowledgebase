@@ -73,12 +73,12 @@ and documented elsewhere.
 
 ## Core vs reference plugins
 
-- **Core plugins**
+ **Core plugins:**
   - Covered in training modules
   - Involved in incidents
   - Changes require documentation
 
-- **Reference plugins**
+  **Reference plugins:**
   - Documented for lookup
   - Not required reading
   - Usually gameplay or cosmetic
@@ -99,8 +99,17 @@ You have completed this module if you can:
 - Identify which plugin a problem belongs to
 - Know when escalation is required
 
-## Next steps
 
-→ **Module 4 — Change Control & Incident Response**
+_ _
+
+## Next module
+
+<div class="grid cards" markdown>
+
+-   :rocket: **Module 4 — Change Control & Incident Response**  
+    Learn how changes are made safely and how incidents are handled.  
+    [:octicons-arrow-right-24: Start Module 4](../learning-path/mod4.md){ .md-button .md-button--primary }
+
+</div>
 
 
