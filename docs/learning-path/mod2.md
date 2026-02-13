@@ -188,9 +188,6 @@ You have completed this module if you can:
 
 ---
 
-## Next Module
-
-→ **Module 3 — Core Operational Plugins**
 
 ## Next module
 
