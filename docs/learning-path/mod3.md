@@ -6,6 +6,7 @@ This module introduces the **core operational plugins** that staff interact with
 day-to-day server operations.
 
 These plugins are considered **core** because:
+
 - They affect player access or safety
 - They are involved in most incidents or questions
 - Misuse can cause widespread impact
@@ -15,6 +16,7 @@ This module focuses on **what each plugin owns**, not how to reconfigure it.
 ## What counts as a core operational plugin
 
 A plugin is considered *core operational* if:
+
 - It affects who can play
 - It affects how players move between systems
 - It affects moderation or safety
