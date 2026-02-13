@@ -119,6 +119,7 @@ If you are unsure, do not guess — escalate following the Staff Documentation.
 ## Change control (document-driven)
 
 Any change to server behavior must:
+
 1. Follow the Staff Documentation’s authority structure
 2. Be recorded in the Server Changelog
 3. Be executed with a verified backup
