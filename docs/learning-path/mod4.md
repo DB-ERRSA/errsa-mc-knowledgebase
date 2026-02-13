@@ -39,7 +39,8 @@ _(Authority & Procedure)_
  - _“How should this situation be handled?”_
 
  **Official authority:**
-   ERRSA Minecraft Staff Documentation
+ 
+   [ERRSA Minecraft Staff Documentation](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQB35CS1dmasS5c-Vnw0cZRBAfcbvYsX7uPr8tgyQqiCltA?e=nAO6lB)
 
    
 
@@ -60,7 +61,8 @@ _(Record of Player-Facing Actions)_
  - “Who took the action?”
 
 **Official record:**
-ERRSA MC Moderation Log
+
+[ERRSA MC Moderation Log](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQC9Z34SGOClTL6UiudoX7mfAWQvtb-Rh5HjndcSBSRiAX4?e=7vVClF)
 
 
 ### ERRSA MC Server Changelog
@@ -80,7 +82,8 @@ _(Record of System Changes)_
  - “Why was it changed?”
 
 **Official record:**
-ERRSA MC Server Changelog
+
+[ERRSA MC Server Changelog](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQDrAgfPe8JAT6WXweW2JVQTAenaBo2SmFIpf1eUWxItUv4?e=WAg2Gh)
 
 ## Where this module fits
 
