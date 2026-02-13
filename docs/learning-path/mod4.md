@@ -1,12 +1,17 @@
-# Module 4 — Change Control & Incident Response
+# Module 4 — Documentation, Change Control, & Incident Context
 
 ## Purpose
 
-This module defines how changes are made safely and how incidents are handled
-on the ERRSA Minecraft server.
+This module explains **which official documents govern which actions**
+on the ERRSA Minecraft server, and how to use them correctly.
 
-Most server damage is not caused by malice — it is caused by **uncontrolled change**.
-This module exists to prevent that.
+This module is a **guide**, not a source of authority.
+
+- All **procedures, punishments, and staff actions** are defined in official documentation.
+- All **player-facing enforcement** is recorded in official logs.
+- All **server changes** are recorded in official changelogs.
+
+This module teaches *how those documents work together*.
 
 ## What counts as a change
 
