@@ -51,8 +51,11 @@ nav:
       - Overview: getting-started.md
       
   - Learning Path:
-      -Module 1: learning-path/mod1.md
-      -Module 2: learning-path/mod2.md
+      - Module 1: learning-path/mod1.md
+      - Module 2: learning-path/mod2.md
+      - Module 3: learning-path/mod3.md
+      - Module 4: learning-path/mod4.md
+      - Module 5: learning-path/mod5.md
 
   - Standards:
       - Permissions Model: standards/permissions.md
