@@ -65,12 +65,12 @@ When a player runs `/register`:
 - Their verification status is stored in a database column
 
 ### Approval / denial behavior
-- **Approve**
+ **Approve:**
   - Status column updates
   - PlayerInit detects the change
   - LuckPerms promotion is executed
   - Player is teleported automatically
-- **Deny**
+  **Deny:**
   - Status column updates
   - Player is kicked
   - Player may retry on reentry
@@ -148,19 +148,19 @@ The Survival server contains multiple worlds:
 This module does not authorize fixes.
 It teaches recognition.
 
-- **“I’m stuck in the void”**
+ **“I’m stuck in the void”**
   - Player is in PlayerInit
   - Verification incomplete
 
-- **“I verified but nothing happened”**
+ **“I verified but nothing happened”**
   - PlayerInit loop has not processed approval yet
   - SQL → LuckPerms promotion pending
 
-- **“My name looks weird”**
+ **“My name looks weird”**
   - Bedrock player via Floodgate
   - Expected behavior
 
-- **“I can’t join on Bedrock”**
+  **“I can’t join on Bedrock”**
   - Likely join address or port issue
   - Geyser/Floodgate related
 
