@@ -65,6 +65,7 @@ nav:
       - Template (Do Not Edit): plugins/template.md
 
       - Core & Infrastructure:
+          - EssentialsX: plugins/essentials.md
           - Floodgate: plugins/floodgate.md
           - Geyser: plugins/geyser-spigot.md
           - LuckPerms: plugins/luckperms.md
@@ -85,7 +86,6 @@ nav:
           - ArmorStandTools: plugins/armorstandtools.md
           - DragonDropElytra: plugins/dragondropelytra.md
           - ERRSA-MC-Core: plugins/errsa-mc-core.md
-          - Essentials: plugins/essentials.md
           - InvisibleFrames: plugins/invisibleframes.md
           - PVPToggle: plugins/pvptoggle.md
           - QuickShop: plugins/quickshop.md
