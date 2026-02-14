@@ -2,10 +2,9 @@
 
 ## Purpose
 
-   **Category:** `Gameplay` <Gameplay / Moderation / Protection / Infrastructure / Cosmetics / Mapping>  
+   **Category:** `Gameplay` 
 
-   This plugin detects when a player kills the End Dragon, and drops an Elyta based on configuration. <1–2 sentence plain-English description of what this plugin exists to do on ERRSA MC.>
-
+   This plugin detects when a player kills the End Dragon, and drops an Elyta based on configuration. 
 ---
 
 ## Dependencies
@@ -23,19 +22,7 @@ _None_
 
 ## Common Commands
 
-!!! note "Only commands relevant to ERRSA workflows are listed"
-
-### Player commands
-- `/command <arg>` — description
-
-### Mod commands
-- `/command <arg>` — description
-
-### Admin commands
-- `/command <arg>` — description
-
-### Dev commands
-- `/command <arg>` — description
+_None_
 
 ---
 
