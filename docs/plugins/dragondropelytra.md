@@ -5,6 +5,7 @@
    **Category:** `Gameplay` 
 
 This plugin detects when a player kills the End Dragon, and drops an Elyta based on configuration. 
+
 ---
 
 ## Dependencies
