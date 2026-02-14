@@ -1,22 +1,21 @@
-# Armor Stand Tools
+# [Armor Stand Tools](https://www.spigotmc.org/resources/armor-stand-tools.2237/)
 
 ## Purpose
 
    **Category:** `Gameplay` 
 
-   Text <1–2 sentence plain-English description of what this plugin exists to do on ERRSA MC.>
+   Armor Stand Tools (AST) gives trusted staff a safe, in-game GUI/toolset to pose, customize, and manage armor stands for builds, displays, and lobby setpieces—without needing summon commands or NBT editing.
 
 ---
 
 ## Dependencies
 
 !!! info "Required for this plugin to function"
-- **Server:** Paper / Spigot / Fabric (specify)
-- **Plugins:**
-  - `<Dependency 1>`
-  - `<Dependency 2>`
-- **External services (if any):**
-  - `<e.g., database, web map, API>`
+- **Server:** Paper / Spigot 
+- **Plugins:** _(none required)_
+
+  - `WorldGuard`
+
 
 ---
 
@@ -27,16 +26,7 @@
     Access is granted by role, not convenience.
 
 ### Player permissions
-- `<permission.node>` — what it allows
-
-### Mod permissions
-- `<permission.node>` — what it allows
-
-### Admin permissions
-- `<permission.node>` — what it allows
-
-### Dev permissions
-- `<permission.node>` — full control / maintenance
+- `astools.use` — allows access to standard AST GUI
 
 
 ---
@@ -45,26 +35,19 @@
 
 !!! note "Only commands relevant to ERRSA workflows are listed"
 
-### Player commands
-- `/command <arg>` — description
+### Player controls
+- `SHIFT + RIGHT CLICK` — opens AST GUI
 
-### Mod commands
-- `/command <arg>` — description
 
-### Admin commands
-- `/command <arg>` — description
-
-### Dev commands
-- `/command <arg>` — description
 
 ---
 
 ## Configuration Files
 
 !!! info "Primary config locations"
-- `plugins/<PluginName>/config.yml`
-- `plugins/<PluginName>/settings.yml`
-- `plugins/<PluginName>/data/` (if applicable)
+- `plugins/ArmorStandTools/config.yml`
+- `plugins/ArmorStandTools/language.yml`
+
 
 
 ---
@@ -72,9 +55,8 @@
 ## ERRSA Defaults & Settings
 
 !!! note "ERRSA-specific configuration choices"
-- `<Setting>`: `<value>` — reason
-- `<Setting>`: `<value>` — reason
-- `<Feature disabled>` — why we disable it
+- `integrateWithWorldGuard`: `true` — Forces AST to respect regions; prevents tampering in protected builds
+
 
 This section documents **intentional deviations from plugin defaults**.
 
