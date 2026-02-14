@@ -95,7 +95,9 @@ This section documents **intentional deviations from plugin defaults**.
 
 ### Issue: Bedrock players can’t click links (Discord/Feedback/Report).
 **Likely cause:** Expected behavior-Bedrock is given plain text links by design.
+
 **Fix:** Tell Bedrock players to copy/paste the link into a browser; keep links short and stable.
+
 **Escalate if:** Java players also lose clickability-check chat formatting plugins that might strip click events.
 
 
