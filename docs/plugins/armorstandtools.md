@@ -14,7 +14,7 @@
 - **Server:** Paper / Spigot 
 - **Plugins:** _(none required)_
 
-  - `WorldGuard`
+  - `WorldGuard` - optional
 
 
 ---
