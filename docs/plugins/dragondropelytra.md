@@ -38,9 +38,10 @@ _None_
 ## ERRSA Defaults & Settings
 
 !!! note "ERRSA-specific configuration choices"
-- `<Setting>`: `<value>` — reason
-- `<Setting>`: `<value>` — reason
-- `<Feature disabled>` — why we disable it
+- `elytra`: `false` — does not drop a **fresh** elytra
+- `brokenelytra`: `true` — drops elytras that requires repairs
+- `chancepercentdrop`: `0.50` — only a 50% chance of a succesful drop
+
 
 This section documents **intentional deviations from plugin defaults**.
 
@@ -48,17 +49,7 @@ This section documents **intentional deviations from plugin defaults**.
 
 ## Common Issues & Fixes
 
-### Issue: <What someone reports>
-**Likely cause:** <cause>  
-**Fix:** <what the role can safely do>  
-**Escalate if:** <conditions>
-
----
-
-### Issue: <Another common problem>
-**Likely cause:** <cause>  
-**Fix:** <fix>  
-**Escalate if:** <conditions>
+_None known_
 
 
 ---
