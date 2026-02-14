@@ -97,5 +97,5 @@ This section documents **intentional deviations from plugin defaults**.
 
 ---
 
-_Last verified: 2025-12-30_  
+_Last verified: 2026-02-13_  
 _Server version: 1.21.4_
