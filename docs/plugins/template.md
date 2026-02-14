@@ -83,13 +83,17 @@ This section documents **intentional deviations from plugin defaults**.
 ## Common Issues & Fixes
 
 ### Issue: <What someone reports>
+
 **Likely cause:** <cause>  
+
 **Fix:** <what the role can safely do>  
+
 **Escalate if:** <conditions>
 
 ---
 
 ### Issue: <Another common problem>
+
 **Likely cause:** <cause>  
 **Fix:** <fix>  
 **Escalate if:** <conditions>
