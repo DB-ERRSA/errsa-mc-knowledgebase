@@ -245,6 +245,7 @@ The area was **not actually claimed**, the claim was too small, or the affected 
 4. If damage already occurred, investigate with CoreProtect.
 
 **Escalate if:**  
+
 - The player insists the build was inside a claim  
 - Multiple protection systems appear to be conflicting  
 - Claim boundaries are behaving incorrectly
@@ -257,6 +258,7 @@ The area was **not actually claimed**, the claim was too small, or the affected 
 The player does not have the required **trust level** in that claim.
 
 **Fix:**  
+
 - Claim owner should use the correct trust command:
   - `/trust <player>` — build access
   - `/containertrust <player>` — container access
@@ -264,6 +266,7 @@ The player does not have the required **trust level** in that claim.
 - If the player is only visiting, this is normal protection behavior.
 
 **Escalate if:**  
+
 - The player should already have trust but still cannot interact  
 - Permissions fail after being re-applied
 
@@ -275,10 +278,12 @@ The player does not have the required **trust level** in that claim.
 The player entered or spawned into a protected area without access.
 
 **Fix:**  
+
 - Have the player use `/trapped` if available.
 - If they remain stuck, staff can assist manually.
 
-**Escalate if:**  
+**Escalate if:** 
+
 - `/trapped` fails
 - The player is stuck in an **admin claim**
 - The issue happens repeatedly in the same location
@@ -291,12 +296,14 @@ The player entered or spawned into a protected area without access.
 ERRSA MC intentionally restricts some actions in or near claims to prevent bypassing **Rule [4]** protections.
 
 **Fix:**  
+
 - Explain that this is expected behavior:
   - Ender pearls require access trust
   - Raid triggers require build trust
   - Claim protections block many grief-prone actions
 
-**Escalate if:**  
+**Escalate if:** 
+
 - The restriction is happening in the player’s **own** claim unexpectedly  
 - The blocked action is preventing a legitimate server-approved activity
 
@@ -308,12 +315,14 @@ ERRSA MC intentionally restricts some actions in or near claims to prevent bypas
 The build may be partially unclaimed, or the action involved something outside the normal claim boundary or trust setup.
 
 **Fix:**  
+
 1. Verify the area is fully claimed.
 2. Confirm the player did not grant trust to the wrong person.
 3. Use CoreProtect if blocks or containers were affected.
 4. For entity-related incidents, verify claim coverage and nearby access points.
 
 **Escalate if:**  
+
 - Protected animals or villagers were affected inside a valid claim  
 - The issue suggests claim protections are not being enforced correctly
 
@@ -325,11 +334,13 @@ The build may be partially unclaimed, or the action involved something outside t
 The claim may have expired due to long inactivity, been abandoned, or been removed by staff.
 
 **Fix:**  
+
 - Check claim ownership and inactivity history.
 - Confirm whether the claim was abandoned manually or expired under inactivity rules.
 - If needed, review staff actions and logs.
 
 **Escalate if:**  
+
 - The player was active recently
 - The claim appears to have been removed unexpectedly
 - A staff action may need review
@@ -342,12 +353,14 @@ The claim may have expired due to long inactivity, been abandoned, or been remov
 The player may not have enough claim blocks, may be in a world where claims are disabled, or the location may conflict with another protected area.
 
 **Fix:**  
+
 1. Confirm the player is in a claim-enabled world.
 2. Have them check whether the land overlaps another claim.
 3. Verify they have enough claim blocks available.
 4. Have them try again in a different open area.
 
 **Escalate if:**  
+
 - Claim creation fails in normal survival areas with enough blocks available  
 - Multiple players report the same issue
 
@@ -358,13 +371,15 @@ The player may not have enough claim blocks, may be in a world where claims are 
 **Likely cause:**  
 This is intentional. ERRSA MC disables many environmental grief sources to protect player builds and property.
 
-**Fix:**  
+**Fix:** 
+
 - Explain that this is expected server behavior:
   - Claim explosions are blocked
   - Surface creeper and other explosions are blocked
   - Fire spread and fire destruction are disabled
 
 **Escalate if:**  
+
 - Explosions or fire are damaging protected builds when they should not be  
 - Damage occurs inconsistently between worlds
 
@@ -376,12 +391,14 @@ This is intentional. ERRSA MC disables many environmental grief sources to prote
 The suspected player may have been trusted, may be using an allowed interaction type, or staff/admin permissions may be involved.
 
 **Fix:**  
+
 1. Verify the trust list for the claim.
 2. Confirm what type of interaction occurred.
 3. Check whether the player had legitimate access.
 4. If actual grief occurred, handle it under **Rule [4]** and investigate with CoreProtect.
 
 **Escalate if:**  
+
 - Claim protections appear to be bypassed without trust  
 - The issue involves admin claims or staff permissions  
 - Multiple reports suggest a plugin/config problem
