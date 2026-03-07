@@ -67,11 +67,13 @@ When a player runs `/register`:
 
 ### Approval / denial behavior
  **Approve:**
+ 
   - Status column updates
   - PlayerInit detects the change
   - LuckPerms promotion is executed
   - Player is teleported automatically
   **Deny:**
+    
   - Status column updates
   - Player is kicked
   - Player may retry on reentry
