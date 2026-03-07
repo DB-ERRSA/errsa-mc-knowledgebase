@@ -32,7 +32,7 @@ Chat Filter is a chat management plugin for reducing spam, swearing, advertiseme
 
 ---
 
-## Configuration Files
+
 
 ## Configuration Files
 
@@ -54,7 +54,6 @@ Key features configured here include:
 - Per-word filtering behavior and preset filter rules  
 - Event priority handling for compatibility with other plugins  
 
-Admins typically modify this file when adjusting **how strict chat moderation is**.
 
 ---
 
@@ -67,6 +66,7 @@ Examples of blocked content:
 - Obfuscated advertisements using separators like `dot`, `-`, or spaces
 
 When triggered, the filter can:
+
 - Warn staff
 - Warn the player
 - Cancel the chat message
@@ -85,6 +85,7 @@ This file contains:
 - Optional moderation actions like muting or alerting staff
 
 Example use cases:
+
 - Blocking profanity
 - Replacing certain words
 - Auto-muting spam bots
@@ -101,6 +102,7 @@ This file:
 - Prevents “fancy text” abuse from hacked clients
 
 Example blocked characters include:
+
 - Full-width Unicode letters
 - Circled or stylized characters
 
@@ -110,22 +112,14 @@ Example blocked characters include:
     Changes to regex filters can unintentionally block legitimate messages.  
     Always test modifications in a **staging server or with a test account** before deploying.
 
-
 ---
 
-## ERRSA Defaults & Settings
-
-!!! note "ERRSA-specific configuration choices"
-- `<Setting>`: `<value>` — reason
-- `<Setting>`: `<value>` — reason
-- `<Feature disabled>` — why we disable it
 
 This section documents **intentional deviations from plugin defaults**.
 
 
 
 
----
 
 _Last verified: 2026-03-06_  
 _Server version: 1.21.4_
