@@ -62,18 +62,17 @@ Common locations:
 ### Database
 - **Tool**: phpMyAdmin (via Apex)
 - **Used for**:
-  - Player initialization
-  - Email verification
-  - External registration systems
+  - Player initialization (new player onboarding)
+  - Luckperms database
 
 !!! warning
-    Never manually edit database tables unless the plugin documentation explicitly says it is safe.
+    Never manually edit database tables unless documentation explicitly says it is safe.
 
 ---
 
 ### Backups
 - **Provided by**: Apex Hosting
-- **Cadence**: (document exact schedule here)
+- **Cadence**: 1 day
 - **Scope**:
   - World files
   - Plugin configs
@@ -104,10 +103,6 @@ Breaking these rules is how servers get corrupted.
 4. Verify functionality
 5. Update documentation
 
-### Unsafe workflow (do not do this)
-- Editing live configs without backup
-- Reloading plugins blindly (never reload)
-- Making undocumented changes
 
 ---
 
@@ -118,4 +113,4 @@ Breaking these rules is how servers get corrupted.
 
 ---
 
-_Last reviewed: 2025-12-30 | Applies to current ERRSA MC production server_
+_Last reviewed: 2026-03-06 | Applies to current ERRSA MC production server_
