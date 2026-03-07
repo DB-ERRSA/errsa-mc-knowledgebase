@@ -160,6 +160,7 @@ It teaches recognition.
  
   - PlayerInit loop has not processed approval yet
   - SQL → LuckPerms promotion pending
+  - After 5 minutes, if issue persist may be incorrect email or playerinit is down
 
  **“My name looks weird”**
  
