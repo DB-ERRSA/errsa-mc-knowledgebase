@@ -2,7 +2,7 @@
 
 ## Purpose
 
-**Category:** Moderation
+**Category:** `Moderation`
 
 CoreProtect logs player interactions with the world (block breaks, placements, container access, etc.) so staff can **investigate grief, identify who made changes, and roll back damage** if needed. This tool is by far one of the **most important tools for admins**.
 
