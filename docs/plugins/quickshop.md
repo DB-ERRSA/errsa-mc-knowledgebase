@@ -1,4 +1,4 @@
-# Template <Plugin Name>
+# Quickshop Hikari
 
 ## Purpose
 
