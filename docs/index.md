@@ -28,6 +28,26 @@ Operational documentation for the ERRSA Minecraft server - plugins, standards, p
 
 ---
 
+## Important Documents
+
+<div class="grid cards" markdown>
+
+- :material-file-document: **Staff Documentation**  
+  Internal documentation covering moderation standards and staff procedures.  
+  [Open →](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQB35CS1dmasS5c-Vnw0cZRBAfcbvYsX7uPr8tgyQqiCltA)
+
+- :material-history: **Server Changelog**  
+  Historical record of server updates, plugin changes, and configuration changes.  
+  [Open →](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQDrAgfPe8JAT6WXweW2JVQTAenaBo2SmFIpf1eUWxItUv4)
+
+- :material-shield-account: **Moderation Log Template**  
+  Standard format for logging moderation actions and incidents.  
+  [Open →](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQC9Z34SGOClTL6UiudoX7mfAWQvtb-Rh5HjndcSBSRiAX4)
+
+</div>
+
+---
+
 ## Who This Wiki is For
 This wiki is written for ERRSA MC committee members, admins, and developers responsible for operating the server.
 
