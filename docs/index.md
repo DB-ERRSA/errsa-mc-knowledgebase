@@ -40,8 +40,8 @@ Operational documentation for the ERRSA Minecraft server - plugins, standards, p
   Historical record of server updates, plugin changes, and configuration changes.  
   [Open →](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQDrAgfPe8JAT6WXweW2JVQTAenaBo2SmFIpf1eUWxItUv4)
 
-- :material-shield-account: **Moderation Log Template**  
-  Standard format for logging moderation actions and incidents.  
+- :material-shield-account: **Moderation Log**  
+  Official record of moderation actions, warnings, and bans issued on the server.  
   [Open →](https://myerauedu.sharepoint.com/:w:/s/EmbryRiddleResidentStudentAssociationERRSA/IQC9Z34SGOClTL6UiudoX7mfAWQvtb-Rh5HjndcSBSRiAX4)
 
 </div>
