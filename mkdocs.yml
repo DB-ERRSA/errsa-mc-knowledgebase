@@ -90,7 +90,7 @@ nav:
           - QuickShop: plugins/quickshop.md
           - SilkSpawners: plugins/silkspawners.md
           - WarpGUI: plugins/warpgui.md
-          - Wild: plugins/wildgui.md
+          - Wild: plugins/wild.md
 
       - Worlds & Regions:
           - Chunky: plugins/chunky.md
