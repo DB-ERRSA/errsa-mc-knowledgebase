@@ -86,7 +86,6 @@ nav:
           - ArmorStandTools: plugins/armorstandtools.md
           - DragonDropElytra: plugins/dragondropelytra.md
           - ERRSA-MC-Core: plugins/errsa-mc-core.md
-          - InvisibleFrames: plugins/invisibleframes.md
           - PVPToggle: plugins/pvptoggle.md
           - QuickShop: plugins/quickshop.md
           - SilkSpawners: plugins/silkspawners.md
@@ -99,7 +98,6 @@ nav:
           - EssentialsSpawn: plugins/essentialsspawn.md
           - FastAsyncVoxelSniper: plugins/fastasyncvoxelsniper.md 
           - FastAsyncWorldEdit: plugins/fastasyncworldedit.md 
-          - InvisibleFrames: plugins/invisibleframes.md
           - Multiverse-Core: plugins/multiverse-core.md
           - Multiverse-Portals: plugins/multiverse-portals.md
           - My_Worlds: plugins/my_worlds.md
@@ -112,6 +110,7 @@ nav:
           - EssentialsChat: plugins/essentialschat.md
           - FancyHolograms: plugins/fancyholograms.md
           - FancyNPCs: plugins/fancynpcs.md
+          - InvisibleFrames: plugins/invisibleframes.md
           - MiniMOTD: plugins/minimotd.md
           - Maintenance: plugins/maintenance.md
           - TAB: plugins/tab.md
