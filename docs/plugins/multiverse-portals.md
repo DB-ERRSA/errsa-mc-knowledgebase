@@ -34,6 +34,7 @@ Multiverse-Portals provides custom portal creation and routing between worlds us
     Commands are not part of ERRSA MC workflows at this time.
 
 Examples (unused):
+
 - `/mv create <name>` — create portal
 - `/mv modify dest <world>` — set destination
 - `/mv remove <name>` — delete portal
@@ -71,6 +72,7 @@ Key settings from `config.yml`:
 
 ### Important note
 Although portal access enforcement is enabled, it has **no effect** because:
+
 - No portals exist
 - No permissions are assigned
 
@@ -87,6 +89,7 @@ Although portal access enforcement is enabled, it has **no effect** because:
   - controlled teleport systems
 
 Currently replaced by:
+
 - Skript-based portal systems
 - Essentials / manual teleport workflows
 
