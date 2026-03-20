@@ -209,8 +209,8 @@ EssentialsX is the **primary core plugin** on ERRSA MC, handling:
 ---
 
 ## System Behavior
-
-- `update-check`: `false` — prevents unnecessary console/API usage on production server  
+- `update-check`: `false` — prevents unnecessary console/API usage on production server
+  
 ---
 
 _Last verified: 2026-03-20_  
