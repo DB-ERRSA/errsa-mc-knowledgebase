@@ -133,6 +133,7 @@ FastAsyncWorldEdit (FAWE) is the high-performance world editing engine used on E
 
 ### General editing limits
 Under `limits.default`:
+
 - `max-actions: 1`
 - `max-changes: 50000000`
 - `max-checks: 50000000`
@@ -150,16 +151,19 @@ Under `limits.default`:
 
 ### Disallowed blocks
 The following blocks are intentionally disallowed in edits:
+
 - `minecraft:wheat`
 - `minecraft:fire`
 - `minecraft:redstone_wire`
 
 These are present in both:
+
 - `config.yml`
 - `worldedit-config.yml`
 
 ### WorldEdit compatibility settings
 From `worldedit-config.yml`:
+
 - `use-inventory.enable: false`
 - `logging.log-commands: false`
 - `history.size: 15`
