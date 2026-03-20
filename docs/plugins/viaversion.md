@@ -13,8 +13,10 @@ ViaVersion allows players using different Minecraft versions to join the server 
 !!! info "Required for this plugin to function"
 - **Server:** Paper  
 - **Plugins:**
+  
   - *(None required — standalone compatibility layer)*
 - **External services (if any):**
+  
   - None
 
 ---
@@ -83,6 +85,7 @@ ViaVersion allows players using different Minecraft versions to join the server 
 **Fix:**  
 
 - Verify:
+  
   - `serverside-blockconnections = true`
   - `shield-blocking = true`  
 
@@ -101,6 +104,7 @@ ViaVersion allows players using different Minecraft versions to join the server 
 **Fix:**  
 
 - Adjust:
+  
   - `max-per-second`
   - `sustained-max-per-second`  
 
