@@ -131,4 +131,87 @@ EssentialsX is the **primary core plugin** on ERRSA MC, handling:
 - `plugins/Essentials/messages/`
 - `plugins/Essentials/userdata/`
 
+## ERRSA Defaults & Settings
+
+!!! note "ERRSA-specific configuration choices"
+
 ---
+
+## Economy & Balances
+
+- `starting-balance`: `0` — prevents inflation and enforces participation in the player-driven economy  
+- `currency-symbol`: `$` — standard readable currency format  
+- `max-money`: `10000000000000` — effectively uncapped economy ceiling  
+- `min-money`: `0` — prevents negative balances and debt systems  
+
+---
+
+## Teleportation & Movement
+
+- `teleport-delay`: `3` — prevents combat escape abuse  
+- `teleport-invulnerability`: `3` — protects players briefly after teleport  
+- `teleport-cooldown`: `0` — allows frequent travel for accessibility  
+- `teleport-to-center`: `true` — ensures safe and consistent teleport positioning  
+- `tp-accept-cancel-timeout`: `120` — reasonable window for teleport request handling  
+
+---
+
+## Player Interaction & Awareness
+
+- `near-radius`: `200` — balanced visibility range for social awareness  
+- `chat.radius`: `0` — global chat enabled for full server communication  
+
+---
+
+## AFK Management
+
+- `auto-afk`: `300` — marks players AFK after 5 minutes  
+- `auto-afk-kick`: `900` — removes inactive players after 15 minutes to free slots  
+
+---
+
+## Join / Quit Messaging
+
+- `custom-join-message`: enabled — standardized clean join message  
+- `custom-quit-message`: enabled — consistent leave formatting  
+
+---
+
+## World & Player State Management
+
+- `world-change-fly-reset`: `true` — prevents unintended flight carryover between worlds  
+- `world-change-speed-reset`: `true` — enforces fair movement speeds across worlds  
+
+- `spawn-on-join`: `false` — preserves player location continuity between sessions  
+- `respawn-at-home`: `true` — improves player experience after death  
+
+---
+
+## Economy Shop Behavior
+
+- `allow-bulk-buy-sell`: `true` — improves economy usability and reduces repetitive actions  
+- `allow-selling-named-items`: `false` — prevents accidental loss of valuable/custom items  
+
+---
+
+## Warp System
+
+- `per-warp-permission`: `false` — simplifies warp access system for players  
+
+---
+
+## World Protection
+
+- `protect.prevent.creeper-explosion`: `false` — explosions allowed for survival gameplay balance  
+- `protect.prevent.tnt-explosion`: `false` — TNT enabled for gameplay mechanics  
+- `protect.prevent.enderdragon-blockdamage`: `true` — preserves vanilla boss behavior  
+
+---
+
+## System Behavior
+
+- `update-check`: `false` — prevents unnecessary console/API usage on production server  
+---
+
+_Last verified: 2026-03-20_  
+_Server version: 1.21.4_
