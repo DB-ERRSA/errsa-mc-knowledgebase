@@ -14,8 +14,6 @@ Maintenance mode plugin used to temporarily lock the server, display a maintenan
     This plugin follows the **parallel permission track model**.  
     Access is granted by role, not convenience.
 
-### Player permissions
-- None — players are blocked during maintenance
 
 ### Mod permissions
 - `maintenance.bypass` — allows joining during maintenance
