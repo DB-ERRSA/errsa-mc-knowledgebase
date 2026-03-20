@@ -49,7 +49,7 @@ WorldGuard protects regions from griefing and controls player interactions (buil
 - `nether-portal-protection: true` — prevents portal abuse  
 - `block-plugin-spawning: true` — prevents unintended mob spawning  
 
-This section documents **intentional deviations from plugin defaults**. :contentReference[oaicite:0]{index=0}
+This section documents **intentional deviations from plugin defaults**.
 
 ---
 
