@@ -12,6 +12,8 @@ Skript provides lightweight server-side automation and custom gameplay logic wit
 
 !!! info "Required for this plugin to function"
 - **Server:** Paper / Spigot
+- **Plugins:**
+  - `SkBee` (used for bound/region-style event support in current ERRSA MC scripts)
 - **External services (if any):**
   - `None required for current ERRSA MC usage`
 
