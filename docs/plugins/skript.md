@@ -86,3 +86,9 @@ Skript provides lightweight server-side automation and custom gameplay logic wit
 
 This section documents **intentional deviations from plugin defaults**.
 
+
+---
+
+
+_Last verified: 2026-03-20_  
+
