@@ -49,6 +49,7 @@ Refer to the **EssentialsX knowledgebase page** for:
 - EssentialsX Spawn does not maintain independent configuration logic
 
 All configuration is handled within:
+
 - `plugins/Essentials/config.yml`
 - Essentials spawn-related settings
 
@@ -60,6 +61,7 @@ All configuration is handled within:
     All spawn behavior is configured through the main Essentials configuration.
 
 This includes:
+
 - Join spawn behavior
 - Respawn handling
 - Spawn command behavior
