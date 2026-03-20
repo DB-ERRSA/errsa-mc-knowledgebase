@@ -42,6 +42,7 @@ SkBee is a Skript add-on that extends Skript with modern Paper-compatible featur
 - `plugins/SkBee/config.yml`
 
 SkBee behavior is also functionally tied to any Skript files that use its features, such as:
+
 - `plugins/Skript/scripts/Custom_Portal.sk`
 
 ---
@@ -150,6 +151,7 @@ If bound support stops working, the custom portal network will likely fail even 
 ### Current operational importance
 - SkBee is not just “nice to have” on ERRSA MC
 - It is part of the infrastructure supporting:
+
   - scripted portals
   - bound/region triggers
   - modern Skript syntax/features
@@ -164,6 +166,7 @@ If bound support stops working, the custom portal network will likely fail even 
 
 ### Recommended documentation note
 If you keep a separate page for `Custom_Portal.sk`, explicitly note that it depends on:
+
 - `Skript`
 - `SkBee`
 - active bound event listeners
