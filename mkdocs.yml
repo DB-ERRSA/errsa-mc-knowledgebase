@@ -100,7 +100,6 @@ nav:
           - FastAsyncWorldEdit: plugins/fastasyncworldedit.md 
           - Multiverse-Core: plugins/multiverse-core.md
           - Multiverse-Portals: plugins/multiverse-portals.md
-          - My_Worlds: plugins/my_worlds.md
           - PerWorldInventory: plugins/perworldinventory.md
           - WorldGuard: plugins/worldguard.md
           - WorldGuard Extra Flags: plugins/worldguard-extraflags.md
