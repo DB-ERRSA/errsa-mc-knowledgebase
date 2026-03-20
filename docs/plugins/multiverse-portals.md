@@ -50,7 +50,7 @@ Refer to official docs if activation is planned.
 
 ### Current state
 - `portals.yml` is empty:
-  - `portals: {}` :contentReference[oaicite:0]{index=0}
+  - `portals: {}`
 
 - No active portals are defined on ERRSA MC
 
@@ -67,7 +67,7 @@ Key settings from `config.yml`:
 - `portals-default-to-nether: false`
 - `nether-animation: true`
 - `teleport-vehicles: false`
-- `use-on-move: true` :contentReference[oaicite:1]{index=1}
+- `use-on-move: true` 
 
 ### Important note
 Although portal access enforcement is enabled, it has **no effect** because:
