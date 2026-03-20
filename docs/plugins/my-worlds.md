@@ -14,8 +14,7 @@ Multiverse-Core manages multiple worlds on ERRSA MC, including world loading, wo
 - **Server:** Paper / Spigot
 - **Plugins:**
   - `Multiverse-Core`
-- **External services (if any):**
-  - `None required for current ERRSA MC usage`
+
 
 ---
 
@@ -25,14 +24,6 @@ Multiverse-Core manages multiple worlds on ERRSA MC, including world loading, wo
     This plugin follows the **parallel permission track model**.  
     Access is granted by role, not convenience.
 
-### Player permissions
-- No direct Multiverse-Core access is granted to normal players on ERRSA MC
-
-### Mod permissions
-- No mod-level Multiverse-Core access is currently assigned
-
-### Admin permissions
-- No routine admin access is currently assigned
 
 ### Dev permissions
 - Multiverse-Core access is restricted to **dev/trusted infrastructure staff only**
@@ -46,15 +37,6 @@ Multiverse-Core manages multiple worlds on ERRSA MC, including world loading, wo
 ## Common Commands
 
 !!! note "Only commands relevant to ERRSA workflows are listed"
-
-### Player commands
-- None
-
-### Mod commands
-- None
-
-### Admin commands
-- None routinely assigned on ERRSA MC
 
 ### Dev commands
 - `/mv list` — list imported worlds
@@ -162,94 +144,6 @@ Multiverse-Core manages multiple worlds on ERRSA MC, including world loading, wo
 - Purpose-built worlds like `Lobby`, `PlayerInit`, and `LegacyLake` are locked down with adventure mode, low/no hostile pressure, and reduced survival mechanics
 - Join-spawn override is disabled globally, so Multiverse is not forcing all login routing by itself
 - Respawn logic is conservative and world-aware, with overworld fallback enabled and respawn-at-world-spawn enforced globally unless world properties override it :contentReference[oaicite:13]{index=13} :contentReference[oaicite:14]{index=14}
-
----
-
-## Common Issues & Fixes
-
-### Issue: Player enters a world and their gamemode changes unexpectedly
-
-**Likely cause:** `enforce-gamemode: true` is enabled globally, and the destination world has a different configured gamemode. :contentReference[oaicite:15]{index=15}
-
-**Fix:**  
-- Check the target world's `gamemode` in `worlds.yml`
-- Confirm the behavior is intended for that world
-
-**Escalate if:** A gameplay world is forcing the wrong mode for all users unexpectedly
-
----
-
-### Issue: Player cannot use beds/anchors the way expected in a custom world
-
-**Likely cause:** The world-specific `bed-respawn` or `anchor-respawn` flags differ by world. For example, `Lobby` allows both, while `PlayerInit` and `LegacyLake` disable both. :contentReference[oaicite:16]{index=16}
-
-**Fix:**  
-- Check the affected world's respawn flags in `worlds.yml`
-- Verify whether the world is intended to act as a controlled experience space
-
-**Escalate if:** Respawn behavior conflicts with the design purpose of the world
-
----
-
-### Issue: Player respawns somewhere unexpected
-
-**Likely cause:** Global respawn rules are active, including `default-respawn-in-overworld: true`, `default-respawn-within-same-world: true`, and `enforce-respawn-at-world-spawn: true`, combined with any world-specific `respawn-world` value. `PlayerInit`, for example, explicitly sets `respawn-world: PlayerInit`. :contentReference[oaicite:17]{index=17} :contentReference[oaicite:18]{index=18}
-
-**Fix:**  
-- Check the world the player died in
-- Review that world's `respawn-world`
-- Review bed/anchor settings for that world
-
-**Escalate if:** Respawns are inconsistent within the same world and not explained by config
-
----
-
-### Issue: A world is loaded but behaves too “open” for access control
-
-**Likely cause:** `enforce-access: false` is globally enabled, so Multiverse is not using world access permission gates. :contentReference[oaicite:19]{index=19}
-
-**Fix:**  
-- Restrict access operationally through other plugins/workflows
-- Do not assume Multiverse itself is blocking entry
-
-**Escalate if:** A restricted-use world needs permission-gated entry in production
-
----
-
-### Issue: `/mv` dangerous actions require confirmation
-
-**Likely cause:** `confirm-mode: enable` and `use-confirm-otp: true` are active. :contentReference[oaicite:20]{index=20}
-
-**Fix:**  
-- Complete the `/mv confirm` flow with the provided code
-- This is expected and should not be disabled casually
-
-**Escalate if:** Trusted dev workflows are being blocked in error
-
----
-
-## Notes for ERRSA MC Maintainers
-
-!!! warning "Restricted infrastructure plugin"
-    Multiverse-Core should remain a **dev-only operational tool** on ERRSA MC.
-
-### Key operational notes
-- Access is intentionally limited to dev/trusted infrastructure staff
-- World behavior is split clearly between:
-  - survival worlds (`world`, `world_nether`, `world_the_end`)
-  - controlled experience worlds (`Lobby`, `PlayerInit`, `LegacyLake`) :contentReference[oaicite:21]{index=21}
-
-### Important settings to remember
-- `enforce-access: false`
-- `enforce-gamemode: true`
-- `teleport-intercept: true`
-- `default-respawn-in-overworld: true`
-- `enforce-respawn-at-world-spawn: true`
-- `confirm-mode: enable`
-- `use-confirm-otp: true` :contentReference[oaicite:22]{index=22} :contentReference[oaicite:23]{index=23} :contentReference[oaicite:24]{index=24}
-
-### Anchors note
-- `anchors.yml` is currently empty, so no saved Multiverse anchors are in use right now. :contentReference[oaicite:25]{index=25}
 
 ---
 
