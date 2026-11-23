@@ -1,0 +1,141 @@
+/* ============================================================
+   NASA-CLEAN / MISSION CONTROL THEME
+   ============================================================ */
+
+/* Layout: wider, more command-console feel */
+.md-grid {
+  max-width: 1240px;
+}
+
+/* ------------------------------------------------------------
+   Typography tuning
+------------------------------------------------------------ */
+.md-typeset h1 {
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset h2 {
+  font-weight: 500;
+  margin-top: 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 0.3rem;
+}
+
+.md-typeset h3 {
+  font-weight: 500;
+  margin-top: 1.4rem;
+}
+
+/* Slightly tighter body text */
+.md-typeset p,
+.md-typeset li {
+  line-height: 1.6;
+}
+
+/* ------------------------------------------------------------
+   Card grid (homepage)
+------------------------------------------------------------ */
+.md-typeset .grid.cards > ul > li {
+  position: relative;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.02);
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Hover = subtle elevation (NASA-clean, not flashy) */
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(0, 188, 212, 0.45); /* cyan accent */
+  background: rgba(255,255,255,0.04);
+  transform: translateY(-2px);
+}
+
+/* Make entire card clickable */
+.md-typeset .grid.cards > ul > li a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+/* Card titles slightly stronger */
+.md-typeset .grid.cards strong {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* ------------------------------------------------------------
+   Admonitions (Operating Rules)
+------------------------------------------------------------ */
+.md-typeset .admonition {
+  border-radius: 12px;
+}
+
+/* Warning = amber, ops-critical */
+.md-typeset .admonition.warning {
+  border-left: 4px solid #ffb300;
+}
+
+/* Tip = cyan, procedural */
+.md-typeset .admonition.tip {
+  border-left: 4px solid #00bcd4;
+}
+
+/* Info = neutral system note */
+.md-typeset .admonition.info {
+  border-left: 4px solid #90caf9;
+}
+
+/* ------------------------------------------------------------
+   Links & UI polish
+------------------------------------------------------------ */
+.md-typeset a {
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Prevent card links from underlining */
+.md-typeset .grid.cards a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+   Dark-mode specific refinements
+------------------------------------------------------------ */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0e1116;
+}
+
+/* Top nav slightly flatter (more console-like) */
+[data-md-color-scheme="slate"] .md-header {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+
+/* Footer de-emphasis */
+.md-footer {
+  opacity: 0.85;
+}
+
+/* ------------------------------------------------------------
+   Table centering - Procedures
+------------------------------------------------------------ */
+
+.center-table {
+  display: flex;
+  justify-content: center;
+}
+
+.center-table table {
+  width: auto;
+}
+
+
